@@ -1,0 +1,1008 @@
+ <!doctype html><html lang="zh"><head ><title>Microsoft微软官网Windows_Office_Surface_Microsoft 365_Xbox_微软官方商城Microsoft Store</title>
+ <meta name="description" content="微软官网Microsoft Store,Windows官网,购买Surface平板笔记本二合一电脑官方正品,正版Microsoft 365/Win10系统/Office/Office 2019下载激活等尽在微软官方商城"/>
+<meta charset="utf-8"/><script type="text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:false}};(window.NREUM||(NREUM={})).loader_config={xpid:"VgEOVF5RDxAGUlBbBQMHXw==",licenseKey:"NRJS-fea48e6b148874ddfb4",applicationID:"66192209"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var i,o=t("ee"),a=t(24),c={};try{i=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,i.indexOf("dev")!==-1&&(c.dev=!0),i.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&o.on("internal-error",function(t){r(t.stack)}),c.dev&&o.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,c){try{p?p-=1:i(c||new UncaughtException(t,e,n),!0)}catch(f){try{o("ierr",[f,s.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function i(t,e){var n=e?null:s.now();o("err",[t,n])}var o=t("handle"),a=t(25),c=t("ee"),s=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(9),t(8),"addEventListener"in window&&t(5),s.xhrWrappable&&t(10),d=!0)}c.on("fn-start",function(t,e,n){d&&(p+=1)}),c.on("fn-err",function(t,e,n){d&&!n[l]&&(f(n,l,function(){return!0}),this.thrown=!0,i(n))}),c.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),c.on("internal-error",function(t){o("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var i=t("ee"),o=t("handle"),a=t(9),c=t(8),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",g="pushState",y=t("loader");y.features.stn=!0,t(7),"addEventListener"in window&&t(5);var x=NREUM.o.EV;i.on(m,function(t,e){var n=t[0];n instanceof x&&(this.bstStart=y.now())}),i.on(w,function(t,e){var n=t[0];n instanceof x&&o("bst",[n,e,this.bstStart,y.now()])}),a.on(m,function(t,e,n){this.bstStart=y.now(),this.bstType=n}),a.on(w,function(t,e){o(v,[e,this.bstStart,y.now(),this.bstType])}),c.on(m,function(){this.bstStart=y.now()}),c.on(w,function(t,e){o(v,[e,this.bstStart,y.now(),"requestAnimationFrame"])}),i.on(g+p,function(t){this.time=y.now(),this.startPath=location.pathname+location.hash}),i.on(g+h,function(t){o("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){o(d,[window.performance.getEntriesByType(l)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){o(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&i(e)}function i(t){c.inPlace(t,[u,d],"-",o)}function o(t,e){return t[1]}var a=t("ee").get("events"),c=t("wrap-function")(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(i(window),i(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=o(arguments),e={};i.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var c=r.apply(this,t);return i.emit(n+"start",[t,a],c),c.then(function(t){return i.emit(n+"end",[null,t],c),t},function(t){throw i.emit(n+"end",[t],c),t})})}var i=t("ee").get("fetch"),o=t(25),a=t(24);e.exports=i;var c=window,s="fetch-",f=s+"body-",u=["arrayBuffer","blob","json","text","formData"],d=c.Request,l=c.Response,p=c.fetch,h="prototype",m="nr@context";d&&l&&p&&(a(u,function(t,e){r(d[h],e,f),r(l[h],e,f)}),r(c,"fetch",s),i.on(s+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),i.emit(s+"done",[null,e],n)}else i.emit(s+"done",[t],n)}))},{}],7:[function(t,e,n){var r=t("ee").get("history"),i=t("wrap-function")(r);e.exports=r;var o=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;o&&o.pushState&&o.replaceState&&(a=o),i.inPlace(a,["pushState","replaceState"],"-")},{}],8:[function(t,e,n){var r=t("ee").get("raf"),i=t("wrap-function")(r),o="equestAnimationFrame";e.exports=r,i.inPlace(window,["r"+o,"mozR"+o,"webkitR"+o,"msR"+o],"raf-"),r.on("raf-start",function(t){t[0]=i(t[0],"fn-")})},{}],9:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function i(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var o=t("ee").get("timer"),a=t("wrap-function")(o),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=o,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),o.on(s+u,r),o.on(c+u,i)},{}],10:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function i(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,g,"fn-",c)}function o(t){y.push(t),h&&(b?b.then(a):w?w(a):(E=-E,R.data=E))}function a(){for(var t=0;t<y.length;t++)r([],y[t]);y.length&&(y=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",g=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],y=[];e.exports=u;var x=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(v,i,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),o(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!w&&!m){var E=1,R=document.createTextNode(E);new h(a).observe(R,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],11:[function(t,e,n){function r(t){if(!c(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=p.generateSpanId(),m=p.generateTraceId(),w=Date.now(),v={spanId:h,traceId:m,timestamp:w};return(t.sameOrigin||s(t)&&l())&&(v.traceContextParentHeader=i(h,m),v.traceContextStateHeader=o(h,w,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&s(t)&&d())&&(v.newrelicHeader=a(h,m,w,n,r,f)),v}function i(t,e){return"00-"+e+"-"+t+"-01"}function o(t,e,n,r,i){var o=0,a="",c=1,s="",f="";return i+"@nr="+o+"-"+c+"-"+n+"-"+r+"-"+t+"-"+a+"-"+s+"-"+f+"-"+e}function a(t,e,n,r,i,o){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var c={v:[0,1],d:{ty:"Browser",ac:r,ap:i,id:t,tr:e,ti:n}};return o&&r!==o&&(c.d.tk=o),btoa(JSON.stringify(c))}function c(t){return f()&&s(t)}function s(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var i=h(n.allowed_origins[r]);if(t.hostname===i.hostname&&t.protocol===i.protocol&&t.port===i.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function l(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var p=t(21),h=t(13);e.exports={generateTracePayload:r,shouldGenerateTrace:c}},{}],12:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<l;r++)t.removeEventListener(d[r],this.listener,!1);e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):o(this,t),n.cbTime=this.cbTime,u.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime]))}}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=s(e),t.sameOrigin=t.parsedOrigin.sameOrigin}function o(t,e){t.params.status=e.status;var n=w(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(13),f=t(11).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(17),m=t(16),w=t(14),v=window.XMLHttpRequest;a.features.xhr=!0,t(10),t(6),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,t.addEventListener("load",function(n){o(e,t)},!1),h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],i=this;if(n&&r){var o=m(r);o&&(n.txSize=o)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||i.loadCaptureCalled||(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<l;c++)e.addEventListener(d[c],this.listener,!1)}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,e){e instanceof v&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof v&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof v&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url?n=t[0].url:window.URL&&t[0]&&t[0]instanceof URL&&(n=t[0].href),n&&(this.parsedOrigin=s(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var i=f(this.parsedOrigin);if(i&&(i.newrelicHeader||i.traceContextParentHeader))if("string"==typeof t[0]||window.URL&&t[0]&&t[0]instanceof URL){var o={};for(var a in r)o[a]=r[a];o.headers=new Headers(r.headers||{}),e(o.headers,i)&&(this.dt=i),t.length>1?t[1]=o:t.push(o)}else t[0]&&t[0].headers&&e(t[0].headers,i)&&(this.dt=i)})}},{}],13:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];var e=document.createElement("a"),n=window.location,i={};e.href=t,i.port=e.port;var o=e.href.split("://");!i.port&&o[1]&&(i.port=o[1].split("/")[0].split("@").pop().split(":")[1]),i.port&&"0"!==i.port||(i.port="https"===o[0]?"443":"80"),i.hostname=e.hostname||n.hostname,i.pathname=e.pathname,i.protocol=o[0],"/"!==i.pathname.charAt(0)&&(i.pathname="/"+i.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,c=e.hostname===document.domain&&e.port===n.port;return i.sameOrigin=a&&(!e.hostname||c),"/"===i.pathname&&(r[t]=i),i}},{}],14:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?i(t.response):"text"===n||""===n||void 0===n?i(t.responseText):void 0}var i=t(16);e.exports=r},{}],15:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(24),c=t(25),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=i(l+e,!0,"api")}),u.addPageAction=i(l+"addPageAction",!0),u.setCurrentRouteName=i(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(p+"tracer",[f.now(),t,n],r),function(){if(s.emit((i?"":"no-")+"fn-start",[f.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw s.emit("fn-err",[arguments,this,t],n),t}finally{s.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=i(p+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,f.now(),!1,e])}},{}],16:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],17:[function(t,e,n){var r=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(r=+i[1]),e.exports=r},{}],18:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(26);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],19:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],20:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof h&&!w){var e=Math.round(t.timeStamp),n={type:t.type};e<=l.now()?n.fid=l.now()-e:e>l.offset&&e<=Date.now()?(e-=l.offset,n.fid=l.now()-e):e=l.now(),w=!0,d("timing",["fi",e,n])}}function c(t){d("pageHide",[l.now(),t])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var s,f,u,d=t("handle"),l=t("loader"),p=t(23),h=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(m){}f=new PerformanceObserver(i);try{f.observe({entryTypes:["largest-contentful-paint"]})}catch(m){}u=new PerformanceObserver(o);try{u.observe({type:"layout-shift",buffered:!0})}catch(m){}}if("addEventListener"in document){var w=!1,v=["click","keydown","mousedown","pointerdown","touchstart"];v.forEach(function(t){document.addEventListener(t,a,!1)})}p(c)}},{}],21:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var i,o="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",c=0;c<o.length;c++)i=o[c],"x"===i?a+=t().toString(16):"y"===i?(i=3&t()|8,a+=i.toString(16)):a+=i;return a}function i(){return a(16)}function o(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,i=window.crypto||window.msCrypto;i&&i.getRandomValues&&Uint8Array&&(n=i.getRandomValues(new Uint8Array(31)));for(var o=[],a=0;a<t;a++)o.push(e().toString(16));return o.join("")}e.exports={generateUuid:r,generateSpanId:i,generateTraceId:o}},{}],22:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,s=c.match(a);s&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=s[1])}e.exports={agent:i,version:o,match:r}},{}],23:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],24:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],25:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],26:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?f(t,s,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!p.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),s=m(n),f=s.length,u=0;u<f;u++)s[u].apply(c,r);var l=d[y[n]];return l&&l.push([x,n,r,c]),c}}function o(t,e){g[t]=m(t).concat(e)}function h(t,e){var n=g[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return g[t]||[]}function w(t){return l[t]=l[t]||i(n)}function v(t,e){u(t,function(t,n){e=e||"feature",y[n]=e,e in d||(d[e]=[])})}var g={},y={},x={on:o,addEventListener:o,removeEventListener:h,emit:n,get:w,listeners:m,context:e,buffer:v,abort:c,aborted:!1};return x}function o(t){return f(t,s,a)}function a(){return new r}function c(){(d.api||d.feature)&&(p.aborted=!0,d=p.backlog={})}var s="nr@context",f=t("gos"),u=t(24),d={},l={},p=e.exports=i();e.exports.getOrSetContext=o,p.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!E++){var t=b.info=NREUM.info,e=p.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(y,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=t(18),c=t("handle"),s=t(24),f=t("ee"),u=t(22),d=t(19),l=window,p=l.document,h="addEventListener",m="attachEvent",w=l.XMLHttpRequest,v=w&&w.prototype;if(d(l.location)){NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:w,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var g=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1208.min.js"},x=w&&v&&v[h]&&!/CriOS/.test(navigator.userAgent),b=e.exports={offset:a.getLastTimestamp(),now:a,origin:g,features:{},xhrWrappable:x,userAgent:u};t(15),t(20),p[h]?(p[h]("DOMContentLoaded",o,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",i),l[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,s,f){function nrWrapper(){var o,a,u,l;try{a=this,o=d(arguments),u="function"==typeof r?r(o,a):r||{}}catch(p){i([p,"",[o,a,s],u],t)}c(n+"start",[o,a,s],u,f);try{return l=e.apply(a,o)}catch(h){throw c(n+"err",[o,a,h],u,f),h}finally{c(n+"end",[o,a,l],u,f)}}return a(e)?e:(n||(n=""),nrWrapper[l]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,s,f,u="-"===r.charAt(0);for(f=0;f<e.length;f++)s=e[f],c=t[s],a(c)||(t[s]=n(c,u?s+r:r,i,s,o))}function c(n,r,o,a){if(!h||e){var c=h;h=!0;try{t.emit(n,r,o,e,a)}catch(s){i([s,n,r,o],t)}h=c}}return t||(t=u),n.inPlace=r,n.flag=l,n}function i(t,e){e||(e=u);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)p.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[l])}function c(t,e){var n=e(t);return n[l]=t,o(t,n,u),n}function s(t,e,n){var r=t[e];t[e]=c(r,n)}function f(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var u=t("ee"),d=t(25),l="nr@original",p=Object.prototype.hasOwnProperty,h=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=s,e.exports.argsToArray=f},{}]},{},["loader",2,12,4,3]);</script>
+<meta name="keywords" content="Microsoft，Microsoft官网，微软官网，Surface，微软Surface，Microsoft Store，Xbox，微软官方商城，微软商城，Office， Office 365，Office 2019 Microsoft Office, Microsoft 365，微软365，Microsoft Surface"/>
+<meta name="robots" content="INDEX,FOLLOW"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+<meta name="format-detection" content="telephone=no"/>
+  <script>
+    var BASE_URL = 'https://www.microsoftstore.com.cn/';
+    var require = {
+        "baseUrl": "https://cdn.microsoftstore.com.cn/static/version1616422545/frontend/Microsoft/rwd/zh_Hans_CN"
+    };</script> <link  rel="stylesheet" type="text/css"  media="all" href="https://cdn.microsoftstore.com.cn/static/version1616422545/frontend/Microsoft/rwd/zh_Hans_CN/mage/calendar.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://cdn.microsoftstore.com.cn/static/version1616422545/frontend/Microsoft/rwd/zh_Hans_CN/css/styles-m.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://cdn.microsoftstore.com.cn/static/version1616422545/frontend/Microsoft/rwd/zh_Hans_CN/css/swiper.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://cdn.microsoftstore.com.cn/static/version1616422545/frontend/Microsoft/rwd/zh_Hans_CN/css/nouislider.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://cdn.microsoftstore.com.cn/static/version1616422545/frontend/Microsoft/rwd/zh_Hans_CN/css/new-component.min.css" />
+<link  rel="stylesheet" type="text/css"  media="screen and (min-width: 768px)" href="https://cdn.microsoftstore.com.cn/static/version1616422545/frontend/Microsoft/rwd/zh_Hans_CN/css/styles-l.min.css" />
+<link  rel="stylesheet" type="text/css"  media="print" href="https://cdn.microsoftstore.com.cn/static/version1616422545/frontend/Microsoft/rwd/zh_Hans_CN/css/print.min.css" />
+<script  type="text/javascript"  src="https://cdn.microsoftstore.com.cn/static/version1616422545/frontend/Microsoft/rwd/zh_Hans_CN/requirejs/require.min.js"></script>
+<script  type="text/javascript"  src="https://cdn.microsoftstore.com.cn/static/version1616422545/frontend/Microsoft/rwd/zh_Hans_CN/requirejs-min-resolver.min.js"></script>
+<script  type="text/javascript"  src="https://cdn.microsoftstore.com.cn/static/version1616422545/frontend/Microsoft/rwd/zh_Hans_CN/js/bundle/bundle0.min.js"></script>
+<script  type="text/javascript"  src="https://cdn.microsoftstore.com.cn/static/version1616422545/frontend/Microsoft/rwd/zh_Hans_CN/js/bundle/bundle1.min.js"></script>
+<script  type="text/javascript"  src="https://cdn.microsoftstore.com.cn/static/version1616422545/frontend/Microsoft/rwd/zh_Hans_CN/js/bundle/bundle2.min.js"></script>
+<script  type="text/javascript"  src="https://cdn.microsoftstore.com.cn/static/version1616422545/frontend/Microsoft/rwd/zh_Hans_CN/js/bundle/bundle3.min.js"></script>
+<script  type="text/javascript"  src="https://cdn.microsoftstore.com.cn/static/version1616422545/frontend/Microsoft/rwd/zh_Hans_CN/js/bundle/bundle4.min.js"></script>
+<script  type="text/javascript"  src="https://cdn.microsoftstore.com.cn/static/version1616422545/frontend/Microsoft/rwd/zh_Hans_CN/mage/requirejs/static.min.js"></script>
+<script  type="text/javascript"  src="https://cdn.microsoftstore.com.cn/static/version1616422545/frontend/Microsoft/rwd/zh_Hans_CN/mage/requirejs/mixins.min.js"></script>
+<script  type="text/javascript"  src="https://cdn.microsoftstore.com.cn/static/version1616422545/frontend/Microsoft/rwd/zh_Hans_CN/requirejs-config.min.js"></script>
+<script  type="text/javascript"  src="https://cdn.microsoftstore.com.cn/static/version1616422545/frontend/Microsoft/rwd/zh_Hans_CN/mage/polyfill.min.js"></script>
+<script  type="text/javascript"  src="https://cdn.microsoftstore.com.cn/static/version1616422545/frontend/Microsoft/rwd/zh_Hans_CN/Magento_Theme/js/at-config.min.js"></script>
+<script  type="text/javascript"  async="async" src="https://cdn.microsoftstore.com.cn/static/version1616422545/frontend/Microsoft/rwd/zh_Hans_CN/Magento_Theme/js/at.min.js"></script>
+<link  rel="icon" type="image/x-icon" href="https://cdn.microsoftstore.com.cn/media/favicon/stores/1/favicon.ico" />
+<link  rel="shortcut icon" type="image/x-icon" href="https://cdn.microsoftstore.com.cn/media/favicon/stores/1/favicon.ico" />
+<meta name="p:domain_verify" content="tPzhToAjpUl7dbyBycnAR16DAZT3UHTR"/>    <script type="text/javascript">
+        var _TM = {
+            "cc": "CNY",
+            "ll": "zh-CN",
+            "mkt": "cn",
+            "geo": "cn",
+            "pagename": "Microsoft微软官网Windows_Office_Surface_Microsoft 365_Xbox_微软官方商城Microsoft Store",
+            "pagetype": "Microsoft微软官网Windows_Office_Surface_Microsoft 365_Xbox_微软官方商城Microsoft Store",
+            "channel": "Microsoft微软官网Windows_Office_Surface_Microsoft 365_Xbox_微软官方商城Microsoft Store",
+            "wlidstatus": ""
+        }</script> <script src="https://az725175.vo.msecnd.net/scripts/jsll-4.js" type="text/javascript" async="async"
+        id="jsll"></script><meta name="awa-market" content="zh-cn"/><meta name="awa-env" content="PROD"/><meta name="awa-pageType" content="HomePage"/><meta name="p:domain_verify" content=""/> <script type="text/javascript">
+        var config_jsll = {
+            syncMuid: true,
+            useDefaultContentName: true,
+            useShortNameForContentBlob: true,
+            useBeacon: true,
+            debounceMs: {
+                scroll: 300,
+                resize: 3000
+            },
+            autoCapture: {
+                onUnload: true,
+                pageView: true,
+                scroll: true,
+                lineage: true
+            },
+            coreData: {
+                appId: "ChinaWhiteLabel_PRD",
+                pageName: "Microsoft微软官网Windows_Office_Surface_Microsoft 365_Xbox_微软官方商城Microsoft Store"
+            },
+            callback: {
+                pageViewPageTags: null,
+                pageActionContentTags: null
+            }
+        };
+
+        if (window.awa && window.awa.init) {
+            window.awa.init(config_jsll);
+        } else {
+            var _jsll = document.getElementById("jsll");
+            _jsll.onload = function () {
+                window.awa.init(config_jsll);
+            }
+        }</script> <script type="text/javascript">
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = unescape(_bdhmProtocol + "hm.baidu.com/h.js%3F65c86afa131524ede2e7071a40181124");
+    var x = document.getElementsByTagName('script')[0];
+    let cookies_getName = "wcp";
+    let cookie_wcp;
+    let timer = setInterval(function(){
+        let cookies = document.cookie+";";
+        if(cookies.indexOf(cookies_getName)>=0){
+            var cookies_wcp_string_start = cookies.indexOf(cookies_getName);
+            var cookies_wcp_string_start_ = cookies.substr(cookies_wcp_string_start);
+            var cookies_wcp_string_end = cookies_wcp_string_start_.indexOf(";");
+            var cookies_wcp_string = cookies_wcp_string_start_.slice(cookies_getName.length+1,cookies_wcp_string_end);
+                cookie_wcp = JSON.parse(cookies_wcp_string);
+            
+            if(cookie_wcp && cookie_wcp.B){
+                x.parentNode.insertBefore(s, x);
+            }
+            clearInterval(timer)
+        }
+    },2000)</script> <script>
+    var isProd = window.location.href.indexOf("www.microsoftstore.com.cn") > -1;
+    var scriptUrl = isProd ? "//assets.adobedtm.com/launch-EN2c23346949374f60871c2d64aa18ff3c.min.js" : "//assets.adobedtm.com/launch-ENe2ac47b6a0b24228907617b10a9630c2-development.min.js";
+    var adobeScript = document.createElement("script");
+    adobeScript.src = scriptUrl;
+    adobeScript.async = "async";
+    let timer2 = setInterval(function(){
+        if(cookie_wcp){
+            if(cookie_wcp.B){
+                document.querySelector("head").appendChild(adobeScript);
+            }
+            clearInterval(timer2);
+        }
+    },2000)</script><script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Theme/js/surface-link": {
+                "surfaceVal": "https://www.microsoft.com/"
+            }
+        }
+    }</script> </head><body data-container="body" data-mage-init='{"loaderAjax": {}, "loader": { "icon": "https://cdn.microsoftstore.com.cn/static/version1616422545/frontend/Microsoft/rwd/zh_Hans_CN/images/loader-2.gif"}}' class="cms-home cms-index-index page-layout-1column">             <script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_PageBuilder/js/widget-initializer": {
+                "config": {"[data-content-type=\"slider\"][data-appearance=\"default\"]":{"Magento_PageBuilder\/js\/content-type\/slider\/appearance\/default\/widget":false},"[data-content-type=\"map\"]":{"Magento_PageBuilder\/js\/content-type\/map\/appearance\/default\/widget":false},"[data-content-type=\"row\"]":{"Magento_PageBuilder\/js\/content-type\/row\/appearance\/default\/widget":false},"[data-content-type=\"tabs\"]":{"Magento_PageBuilder\/js\/content-type\/tabs\/appearance\/default\/widget":false},"[data-content-type=\"slide\"]":{"Magento_PageBuilder\/js\/content-type\/slide\/appearance\/default\/widget":{"buttonSelector":".pagebuilder-slide-button","showOverlay":"hover","dataRole":"slide"}},"[data-content-type=\"banner\"]":{"Magento_PageBuilder\/js\/content-type\/banner\/appearance\/default\/widget":{"buttonSelector":".pagebuilder-banner-button","showOverlay":"hover","dataRole":"banner"}},"[data-content-type=\"buttons\"]":{"Magento_PageBuilder\/js\/content-type\/buttons\/appearance\/inline\/widget":false},"[data-content-type=\"products\"][data-appearance=\"carousel\"]":{"Magento_PageBuilder\/js\/content-type\/products\/appearance\/carousel\/widget":false}},
+                "breakpoints": {"desktop":{"conditions":{"min-width":"1024px"},"options":{"products":{"default":{"slidesToShow":"5"}}}},"tablet":{"conditions":{"max-width":"1024px","min-width":"768px"},"options":{"products":{"default":{"slidesToShow":"4"},"continuous":{"slidesToShow":"3"}}}},"mobile":{"conditions":{"max-width":"768px","min-width":"640px"},"options":{"products":{"default":{"slidesToShow":"3"}}}},"mobile-small":{"conditions":{"max-width":"640px"},"options":{"products":{"default":{"slidesToShow":"2"},"continuous":{"slidesToShow":"1"}}}}}            }
+        }
+    }</script> <script type="text/x-magento-init">
+    {
+        "*": {
+            "mage/cookies": {
+                "expires": null,
+                "path": "\u002F",
+                "domain": ".www.microsoftstore.com.cn",
+                "secure": false,
+                "lifetime": "3600"
+            }
+        }
+    }</script>  <noscript><div class="message global noscript"><div class="content"><p><strong>JavaScript seems to be disabled in your browser.</strong> <span>For the best experience on our site, be sure to turn on Javascript in your browser.</span></p></div></div></noscript>    <script>
+    require.config({
+        map: {
+            '*': {
+                wysiwygAdapter: 'mage/adminhtml/wysiwyg/tiny_mce/tinymce4Adapter'
+            }
+        }
+    });</script>  <script>
+    window.cookiesConfig = window.cookiesConfig || {};
+    window.cookiesConfig.secure = true;</script> <script>
+    require.config({
+        paths: {
+            googleMaps: 'https\u003A\u002F\u002Fmaps.googleapis.com\u002Fmaps\u002Fapi\u002Fjs\u003Fv\u003D3\u0026key\u003D'
+        },
+        config: {
+            'Magento_PageBuilder/js/utils/map': {
+                style: ''
+            },
+            'Magento_PageBuilder/js/content-type/map/preview': {
+                apiKey: '',
+                apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Fwww.microsoftstore.com.cn\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
+            },
+            'Magento_PageBuilder/js/form/element/map': {
+                apiKey: '',
+                apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Fwww.microsoftstore.com.cn\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
+            },
+        }
+    });</script> <script>
+    require.config({
+        shim: {
+            'Magento_PageBuilder/js/utils/map': {
+                deps: ['googleMaps']
+            }
+        }
+    });</script><div class="page-wrapper"><header class="page-header"><div class="cms-top-container"><div data-content-type="row" data-appearance="contained" data-element="main"><div data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-background-type="image" data-video-loop="true" data-video-play-only-visible="true" data-video-lazy-load="true" data-video-fallback-src="" data-element="inner" style="justify-content: flex-start; display: flex; flex-direction: column; background-position: left top; background-size: cover; background-repeat: no-repeat; background-attachment: scroll; border-style: none; border-width: 1px; border-radius: 0px; margin: 0px 0px 10px; padding: 10px;"><div data-content-type="html" data-appearance="default" data-element="main" style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-decoded="true"><div class="global-top-container swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div>教育优惠 | Surface 主机9折起，精选机型叠享24期免息分期。<a
+                    href="/student?Icid=StripBanner_edu_20210201">教育专区></a>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div>24期免息 | Surface All Access 套餐，享主机及配件24期免息分期。<a
+                    href="/surfaceallaccess?Icid=StripBanner_saa_20210322">选购套餐></a>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .cms-top-container {
+        height: auto !important;
+        max-height: 80px;
+        background: #0067b8 !important;
+        color: #ffffff;
+    }
+
+    @media only screen and (max-width: 767px) {
+        .cms-top-container {
+            line-height: normal!important;
+            padding: 10px 5px;
+            box-sizing: border-box;
+        }
+    }
+</style>
+<script>
+    require(['jquery', 'swiper'], function ($, Swiper) {
+        if ($(".global-top-container .swiper-slide").length > 1) {
+            var top_container_swiper = new Swiper('.global-top-container', {
+                loop: true,
+                slidesPerView: 1,
+                autoplay: {
+                    delay: 6000,
+                    reverseDirection: false
+                },
+                speed: 1300,
+                allowTouchMove: false
+            });
+        }
+    })
+</script></div></div></div></div><div class="header-container"><div class="header-content"><!-- /** * Copyright © Isobar Commerce, Inc. All rights reserved. */ --><div class="catalog_menu"><i class="icon-menu"></i> <i class="icon-close"></i></div> <div class="logo-box"><a class="logo" href="https://www.microsoftstore.com.cn/" title="" aria-label="store logo"><img src="https://cdn.microsoftstore.com.cn/static/version1616422545/frontend/Microsoft/rwd/zh_Hans_CN/images/microsoft.svg" alt="Microsoft" height="23" width="108" /></a> <div class="office-title"><a href="https://www.microsoftstore.com.cn/" title="">微软官方商城</a></div></div><div class="navigation-item">  <div class="sections nav-sections"> <div class="section-items nav-sections-items" data-mage-init='{"tabs":{"openedState":"active"}}'>  <div class="section-item-title nav-sections-item-title" data-role="collapsible"><a class="nav-sections-item-switch" data-toggle="switch" href="#store.menu">Menu</a></div><div class="section-item-content nav-sections-item-content" id="store.menu" data-role="content">  <nav class="navigation" data-action="navigation" id="mainMenu"><ul data-mage-init='{"menu":{"responsive":true, "mediaBreakpoint": "(max-width: 2200px)", "expanded":true, "position":{"my":"left top","at":"left bottom"}}}' id="autoNav"><li  class="level0 nav-1 category-item first level-top parent"><a href="https://www.microsoftstore.com.cn/hardware"  class="level-top" ><span>硬件</span></a><ul class="level0 submenu"><li  class="level1 nav-1-1 category-item first parent"><a href="https://www.microsoftstore.com.cn/hardware/surface" ><span>Surface</span></a><ul class="level1 submenu"><li  class="level2 nav-1-1-1 category-item first last"><a href="https://www.microsoftstore.com.cn/hardware/surface-abc-1/refurbishedsurface" ><span>认证翻新 Surface</span></a></li></ul></li><li  class="level1 nav-1-2 category-item"><a href="https://www.microsoftstore.com.cn/catalog/category/view/id/69/" ><span>认证翻新</span></a></li><li  class="level1 nav-1-3 category-item parent"><a href="https://www.microsoftstore.com.cn/hardware/xbox-game" ><span>Xbox+游戏</span></a><ul class="level1 submenu"><li  class="level2 nav-1-3-1 category-item first"><a href="https://www.microsoftstore.com.cn/hardware/xbox-game/xbox" ><span>Xbox 主机</span></a></li><li  class="level2 nav-1-3-2 category-item"><a href="https://www.microsoftstore.com.cn/hardware/xbox-game/controller" ><span>手柄及遥控器</span></a></li><li  class="level2 nav-1-3-3 category-item"><a href="https://www.microsoftstore.com.cn/hardware/xbox-game/xbox-accessories" ><span>游戏机周边配件</span></a></li><li  class="level2 nav-1-3-4 category-item"><a href="https://www.microsoftstore.com.cn/hardware/xbox-game/game" ><span>更多游戏</span></a></li><li  class="level2 nav-1-3-5 category-item last"><a href="https://www.microsoftstore.com.cn/hardware/xbox-game/disc-game" ><span>光盘游戏</span></a></li></ul></li><li  class="level1 nav-1-4 category-item"><a href="https://www.microsoftstore.com.cn/hardware/vr-and-mr" ><span>混合现实</span></a></li><li  class="level1 nav-1-5 category-item last parent"><a href="https://www.microsoftstore.com.cn/hardware/accessories" ><span>配件</span></a><ul class="level1 submenu"><li  class="level2 nav-1-5-1 category-item first parent"><a href="https://www.microsoftstore.com.cn/hardware/accessories/surface-accessories" ><span>Surface配件</span></a><ul class="level2 submenu"><li  class="level3 nav-1-5-1-1 category-item first"><a href="https://www.microsoftstore.com.cn/hardware/accessories/surface-accessories/s-keyboard-mouse" ><span>键鼠+Dial</span></a></li><li  class="level3 nav-1-5-1-2 category-item"><a href="https://www.microsoftstore.com.cn/hardware/accessories/surface-accessories/s-touch-pen" ><span>触控笔</span></a></li><li  class="level3 nav-1-5-1-3 category-item"><a href="https://www.microsoftstore.com.cn/hardware/accessories/surface-accessories/s-protective" ><span>保护类</span></a></li><li  class="level3 nav-1-5-1-4 category-item last"><a href="https://www.microsoftstore.com.cn/hardware/accessories/surface-accessories/s-cable-adapter" ><span>线材及适配器</span></a></li></ul></li><li  class="level2 nav-1-5-2 category-item parent"><a href="https://www.microsoftstore.com.cn/hardware/accessories/pc-accessories" ><span>电脑与平板配件</span></a><ul class="level2 submenu"><li  class="level3 nav-1-5-2-1 category-item first"><a href="https://www.microsoftstore.com.cn/hardware/accessories/pc-accessories/p-keyboard-mouse" ><span>键鼠</span></a></li><li  class="level3 nav-1-5-2-2 category-item"><a href="https://www.microsoftstore.com.cn/hardware/accessories/pc-accessories/p-cable-adapter" ><span>线材及适配器</span></a></li><li  class="level3 nav-1-5-2-3 category-item last"><a href="https://www.microsoftstore.com.cn/hardware/accessories/pc-accessories/internet-accessories" ><span>网络配件</span></a></li></ul></li><li  class="level2 nav-1-5-3 category-item"><a href="https://www.microsoftstore.com.cn/hardware/accessories/headphones" ><span>耳机</span></a></li><li  class="level2 nav-1-5-4 category-item parent"><a href="https://www.microsoftstore.com.cn/hardware/accessories/xbox-accessories" ><span>Xbox 配件</span></a><ul class="level2 submenu"><li  class="level3 nav-1-5-4-1 category-item first"><a href="https://www.microsoftstore.com.cn/hardware/accessories/xbox-accessories/x-controller-remote" ><span>手柄及遥控器</span></a></li><li  class="level3 nav-1-5-4-2 category-item last"><a href="https://www.microsoftstore.com.cn/hardware/accessories/xbox-accessories/x-games-acc" ><span>游戏机周边配件</span></a></li></ul></li><li  class="level2 nav-1-5-5 category-item last"><a href="https://www.microsoftstore.com.cn/hardware/accessories/xbox" ><span>Xbox配件</span></a></li></ul></li></ul></li><li  class="level0 nav-2 category-item level-top parent"><a href="https://www.microsoftstore.com.cn/software"  class="level-top" ><span>软件</span></a><ul class="level0 submenu"><li  class="level1 nav-2-1 category-item first"><a href="https://www.microsoftstore.com.cn/software/microsoft-365" ><span>Microsoft 365</span></a></li><li  class="level1 nav-2-2 category-item"><a href="https://www.microsoftstore.com.cn/software/office" ><span>Office 2019</span></a></li><li  class="level1 nav-2-3 category-item"><a href="https://www.microsoftstore.com.cn/software/windows" ><span>Windows</span></a></li><li  class="level1 nav-2-4 category-item"><a href="https://www.microsoftstore.com.cn/software/apps" ><span>Apps与Windows 10游戏</span></a></li><li  class="level1 nav-2-5 category-item"><a href="https://www.microsoftstore.com.cn/software/visual-studio" ><span>Visual Studio</span></a></li><li  class="level1 nav-2-6 category-item"><a href="https://www.microsoftstore.com.cn/software/microsoft-complete-plus" ><span>Microsoft Complete and Plus</span></a></li><li  class="level1 nav-2-7 category-item last"><a href="https://www.microsoftstore.com.cn/software/software" ><span>其他软件与服务</span></a></li></ul></li><li  class="level0 nav-3 category-item level-top parent"><a href="https://www.microsoftstore.com.cn/commercial"  class="level-top" ><span>商务</span></a><ul class="level0 submenu"><li  class="level1 nav-3-1 category-item first"><a href="https://www.microsoftstore.com.cn/commercial/surface-commercial" ><span>Surface商用版</span></a></li><li  class="level1 nav-3-2 category-item"><a href="https://www.microsoftstore.com.cn/commercial/vr-and-mr" ><span>混合现实</span></a></li><li  class="level1 nav-3-3 category-item"><a href="https://www.microsoftstore.com.cn/commercial/software" ><span>软件及服务</span></a></li><li  class="level1 nav-3-4 category-item"><a href="https://www.microsoftstore.com.cn/commercial/accessories" ><span>配件</span></a></li><li  class="level1 nav-3-5 category-item last"><a href="https://www.microsoftstore.com.cn/commercial/gift" ><span>礼品采购</span></a></li></ul></li><li  class="level0 nav-4 category-item level-top parent"><a href="https://www.microsoftstore.com.cn/student"  class="level-top" ><span>教育</span></a><ul class="level0 submenu"><li  class="level1 nav-4-1 category-item first"><a href="https://www.microsoftstore.com.cn/student/edu-surface" ><span>Surface</span></a></li><li  class="level1 nav-4-2 category-item"><a href="https://www.microsoftstore.com.cn/student/edu-refurbished-surface" ><span>认证翻新 Surface</span></a></li><li  class="level1 nav-4-3 category-item last"><a href="https://www.microsoftstore.com.cn/student/edu-surface-accessories" ><span>Surface 配件</span></a></li></ul></li><li  class="level0 nav-5 category-item level-top"><a href="https://www.microsoftstore.com.cn/tradein"  class="level-top" ><span>以旧换新</span></a></li><li  class="level0 nav-6 category-item level-top parent"><a href="https://www.microsoftstore.com.cn/promotion"  class="level-top" ><span>活动优惠</span></a><ul class="level0 submenu"><li  class="level1 nav-6-1 category-item first"><a href="https://www.microsoftstore.com.cn/promotion/surface" ><span>Surface</span></a></li><li  class="level1 nav-6-2 category-item"><a href="https://www.microsoftstore.com.cn/promotion/refurbishedsurface" ><span>认证翻新 Surface</span></a></li><li  class="level1 nav-6-3 category-item"><a href="https://www.microsoftstore.com.cn/promotion/surface-commercial" ><span>Surface 商用版</span></a></li><li  class="level1 nav-6-4 category-item"><a href="https://www.microsoftstore.com.cn/promotion/xbox" ><span>Xbox 及配件</span></a></li><li  class="level1 nav-6-5 category-item last"><a href="https://www.microsoftstore.com.cn/promotion/accessories" ><span>配件</span></a></li></ul></li><li  class="level0 nav-7 category-item level-top"><a href="https://www.microsoftstore.com.cn/msstorepromise"  class="level-top" ><span>商城承诺</span></a></li><li  class="level0 nav-8 category-item last level-top"><a href="https://www.microsoftstore.com.cn/support-and-help"  class="level-top" ><span>支持与帮助</span></a></li>  <li id="autoNavMore" class="auto-nav-more"><span id="no-click" class="" aria-haspopup="true" tabindex="-1"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span> <span>更多</span></span> <div style="display: none;" id="autoNavMoreList" class="auto-nav-more-list" role="menu" aria-hidden="true" aria-expanded="false" ></div></li></ul></nav></div>  <div class="section-item-title nav-sections-item-title" data-role="collapsible"><a class="nav-sections-item-switch" data-toggle="switch" href="#store.links">账户</a></div><div class="section-item-content nav-sections-item-content" id="store.links" data-role="content"><!-- Account links --></div> </div></div></div><!-- /** * Copyright © Isobar Commerce, Inc. All rights reserved. */ --><button class="login-icon" data-bind="scope: 'customer'" aria-label="登录"><!-- ko if: customer().fullname --><div class="has-login login-container" data-bind="visible:customer().fullname" style="display: none;"><!-- ko if: customer().type == 'msa' --><span class="text" data-bind="text: customer().firstname"></span> <!-- /ko --><!-- ko if: customer().type == 'mobile' --><span class="text" data-bind="text: customer().mobile"></span> <!-- /ko --><!-- ko if: customer().type == 'wechat' --><span class="text" data-bind="text: customer().firstname"></span> <!-- /ko --><!-- ko if: customer().type == 'alipay' --><span class="text" data-bind='html:"支付宝会员"'></span> <!-- /ko --><i class="icon-circle-user"></i></div><!-- /ko --><!-- ko ifnot: customer().fullname --><div class="no-login login-container"><span class="text">登录</span> <i class="icon-circle-user-plus"></i></div><!-- /ko --></button> <script type="text/x-magento-init">
+    {
+    "*": {
+        "Magento_Ui/js/core/app": {
+            "components": {
+                "customer": {
+                    "component": "Magento_Customer/js/view/customer"
+                }
+            }
+        }
+    }
+}</script><div class="cart-item"> <div data-block="minicart" class="minicart-wrapper"><a class="action showcart" href="https://www.microsoftstore.com.cn/checkout/cart/" data-bind="scope: 'minicart_content'"><span class="text">My Cart</span> <span class="counter qty empty" data-bind="css: { empty: !!getCartParam('summary_count') == false && !isLoading() }, blockLoader: isLoading"><span class="counter-number"><!-- ko text: getCartParam('summary_count') --><!-- /ko --></span> <span class="counter-label"><!-- ko if: getCartParam('summary_count') --><!-- ko text: getCartParam('summary_count') --><!-- /ko --><!-- ko i18n: 'items' --><!-- /ko --><!-- /ko --></span></span></a>  <script>
+            require(['jquery'], function ($) {
+                $('a.action.showcart').click(function() {
+                    $(document.body).trigger('processStart');
+                });
+            });</script> <script>
+        window.checkout = {"shoppingCartUrl":"https:\/\/www.microsoftstore.com.cn\/checkout\/cart\/","checkoutUrl":"https:\/\/www.microsoftstore.com.cn\/checkout\/","updateItemQtyUrl":"https:\/\/www.microsoftstore.com.cn\/checkout\/sidebar\/updateItemQty\/","removeItemUrl":"https:\/\/www.microsoftstore.com.cn\/checkout\/sidebar\/removeItem\/","imageTemplate":"Magento_Catalog\/product\/image_with_borders","baseUrl":"https:\/\/www.microsoftstore.com.cn\/","minicartMaxItemsVisible":5,"websiteId":"1","maxItemsToDisplay":10,"storeId":"1","storeGroupId":"1","customerLoginUrl":"https:\/\/www.microsoftstore.com.cn\/customer\/account\/login\/referer\/aHR0cHM6Ly93d3cubWljcm9zb2Z0c3RvcmUuY29tLmNuLw%2C%2C\/","isRedirectRequired":false,"autocomplete":"off","checkoutLoginUrl":"https:\/\/www.microsoftstore.com.cn\/customer\/account\/login\/referer\/aHR0cHM6Ly93d3cubWljcm9zb2Z0c3RvcmUuY29tLmNuL2NoZWNrb3V0Lw%2C%2C\/","captcha":{"user_login":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"https:\/\/www.microsoftstore.com.cn\/captcha\/refresh\/","isRequired":false,"timestamp":1617116411}}};</script><script type="text/x-magento-init">
+    {
+        "[data-block='minicart']": {
+            "Magento_Ui/js/core/app": {"components":{"minicart_content":{"children":{"subtotal.container":{"children":{"subtotal":{"children":{"subtotal.totals":{"config":{"display_cart_subtotal_incl_tax":0,"display_cart_subtotal_excl_tax":1,"template":"Magento_Tax\/checkout\/minicart\/subtotal\/totals"},"component":"Magento_Tax\/js\/view\/checkout\/minicart\/subtotal\/totals","children":{"subtotal.totals.msrp":{"component":"Magento_Msrp\/js\/view\/checkout\/minicart\/subtotal\/totals","config":{"displayArea":"minicart-subtotal-hidden","template":"Magento_Msrp\/checkout\/minicart\/subtotal\/totals"}}}}},"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/subtotal"}}},"component":"uiComponent","config":{"displayArea":"subtotalContainer"}},"item.renderer":{"component":"uiComponent","config":{"displayArea":"defaultRenderer","template":"Magento_Checkout\/minicart\/item\/default"},"children":{"item.image":{"component":"Magento_Catalog\/js\/view\/image","config":{"template":"Magento_Catalog\/product\/image","displayArea":"itemImage"}},"checkout.cart.item.price.sidebar":{"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/item\/price","displayArea":"priceSidebar"}}}},"extra_info":{"component":"uiComponent","config":{"displayArea":"extraInfo"}},"promotion":{"component":"uiComponent","config":{"displayArea":"promotion"}}},"config":{"itemRenderer":{"default":"defaultRenderer","simple":"defaultRenderer","virtual":"defaultRenderer"},"template":"Magento_Checkout\/minicart\/content"},"component":"Magento_Checkout\/js\/view\/minicart"}},"types":[]}        },
+        "*": {
+            "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Fcdn.microsoftstore.com.cn\u002Fstatic\u002Fversion1616422545\u002Ffrontend\u002FMicrosoft\u002Frwd\u002Fzh_Hans_CN\u002Fimages\u002Floader\u002D1.gif"
+        }
+    }</script></div></div><!-- /** * Copyright © Isobar Commerce, Inc. All rights reserved. */ --><button class="search_menu"><span class="search-text">搜索</span> <i class="icon-search"></i></button></div><div class="block-promotion-popup"> </div><div class="dig-content"><div class="mobile-search-box">  <div class="block block-search"><div class="block block-title"><strong>Search</strong></div><div class="block block-content"><form class="form minisearch" id="search_mini_form" action="https://www.microsoftstore.com.cn/search/" method="get"><div class="field search"><label class="label" for="search" data-role="minisearch-label"><span>Search</span></label> <div class="control"><input id="search" data-mage-init='{"quickSearch":{ "formSelector":"#search_mini_form", "url":"https://www.microsoftstore.com.cn/search/ajax/suggest/", "destinationSelector":"#search_autocomplete", "minSearchLength":"3"} }' type="text" name="q" value="" class="input-text" maxlength="128" role="combobox" aria-haspopup="false" aria-autocomplete="both" autocomplete="off" aria-expanded="false" /><div id="search_autocomplete" class="search-autocomplete"></div> <div class="nested"><a class="action advanced" href="https://www.microsoftstore.com.cn/catalogsearch/advanced/" data-action="advanced-search">Advanced Search</a></div></div></div><div class="actions"><button type="submit" title="Search" class="action search" aria-label="Search"><span>Search</span></button></div></form></div><button class="cancel-btn">取消</button></div></div><div class="dig-login-container"> <div class="user-information-container" data-bind="scope: 'customer'"><!-- ko if: customer().fullname --><div class="user-logo" data-bind="visible:customer().fullname" style="display: none;"><!-- ko if: customer().type == 'msa' --><img data-bind="visible:customer().type == 'msa' " style="display: none;" src="https://cdn.microsoftstore.com.cn/static/version1616422545/frontend/Microsoft/rwd/zh_Hans_CN/images/microsoft.svg" alt="" /><!-- /ko --><!-- ko if: customer().type == 'mobile' --><i data-bind="visible:customer().type == 'mobile' " style="display: none;" class="icon-phone"></i> <!-- /ko --><!-- ko if: customer().type == 'wechat' --><i data-bind="visible:customer().type == 'wechat' " style="display: none;" class="icon-wechat"></i> <!-- /ko --><!-- ko if: customer().type == 'alipay' --><i data-bind="visible:customer().type == 'alipay' " style="display: none;" class="icon-alipay"></i> <!-- /ko --></div><div class="customer-information" data-bind="visible:customer().fullname" style="display: none;"><!-- ko if: customer().type == 'msa' --><div class="name" data-bind="text: customer().firstname"></div><div class="email" data-bind="text: customer().email"></div><!-- /ko --><!-- ko if: customer().type == 'mobile' --><div class="name" data-bind="text: customer().mobile"></div><!-- /ko --><!-- ko if: customer().type == 'wechat' --><div class="name" data-bind="text: customer().firstname"></div><!-- /ko --><!-- ko if: customer().type == 'alipay' --><div class="name" data-bind='html:"支付宝会员"'></div><!-- /ko --></div><!-- /ko --><!-- ko ifnot: customer().fullname --><div class="user-logo"><img src="https://cdn.microsoftstore.com.cn/static/version1616422545/frontend/Microsoft/rwd/zh_Hans_CN/images/microsoft.svg" alt="" /></div><!-- /ko --></div><script type="text/x-magento-init">
+    { 
+    "*": {
+        "Magento_Ui/js/core/app": {
+            "components": {
+                "customer": {
+                    "component": "Magento_Customer/js/view/customer"
+                }
+            }
+        }
+    }
+}</script><ul class="header links"><li><a href="https://www.microsoftstore.com.cn/customer/account/" >我的账户</a></li> <li> <a href="https://www.microsoftstore.com.cn/sales/order/history/">我的订单</a></li> <li> <a href="https://www.microsoftstore.com.cn/customer/address/">地址管理</a></li> <li> <a href="https://www.microsoftstore.com.cn/privateauth/store/index/">我的专区</a></li> <li> <a href="https://www.microsoftstore.com.cn/coupon/account/index/">我的优惠券</a></li> <li class="authorization-link" data-label="&#x6216;" data-bind="scope: 'customer'"><!-- ko if: customer().fullname --><a class="exit" role="button" data-bind="visible:customer().fullname" style="display: none;" href="https://www.microsoftstore.com.cn/customer/account/logout/">退出</a> <!-- /ko --><!-- ko ifnot: customer().fullname --><a class="login-btn" role="button" href="https://www.microsoftstore.com.cn/customer/account/login/referer/aHR0cHM6Ly93d3cubWljcm9zb2Z0c3RvcmUuY29tLmNuLw%2C%2C/">登录</a> <!-- /ko --></li> <script type="text/x-magento-init">
+    { 
+    "*": {
+        "Magento_Ui/js/core/app": {
+            "components": {
+                "customer": {
+                    "component": "Magento_Customer/js/view/customer"
+                }
+            }
+        }
+    }
+}</script></ul></div></div></div></header><main id="maincontent" class="page-main"> <a id="contentarea" tabindex="-1"></a> <div class="page messages"> <div data-placeholder="messages"></div> <div data-bind="scope: 'messages'"><!-- ko if: cookieMessages && cookieMessages.length > 0 --><div role="alert" data-bind="foreach: { data: cookieMessages, as: 'message' }" class="messages"><div data-bind="attr: { class: 'message-' + message.type + ' ' + message.type + ' message', 'data-ui-id': 'message-' + message.type }"><div data-bind="html: $parent.prepareMessageForHtml(message.text)"></div></div></div><!-- /ko --><!-- ko if: messages().messages && messages().messages.length > 0 --><div class="messages-wrapper"><div role="alert" data-bind="foreach: { data: messages().messages, as: 'message' }" class="messages"><div data-bind="attr: { class: 'message-' + message.type + ' ' + message.type + ' message', 'data-ui-id': 'message-' + message.type }"><div data-bind="html: $parent.prepareMessageForHtml(message.text)"></div></div></div><div class="messages-error-overlay"></div></div><!-- /ko --></div><script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                        "messages": {
+                            "component": "Magento_Theme/js/view/messages"
+                        }
+                    }
+                }
+            }
+    }</script></div><div class="columns"><div class="column main"><div class="block-banner">  <div class="banner-slider"><div class="banner-sliderContainer"><div class="banner-container swiper-wrapper">  <div class="item swiper-slide"><div class="bg-img"><a href="javascript:void(0)" title="Surface Pro 7 键盘盖套餐" aria-label="Surface Pro 7 键盘盖套餐" tabindex="-1"><picture> <source media="(max-width:768px)" srcset="https://cdn.microsoftstore.com.cn/media/homepage/210322_homepagebanner_MB_2.jpg">  <img src="https://cdn.microsoftstore.com.cn/media/homepage/210322_homepagebanner_PC_2.jpg" alt="Surface Pro 7 键盘盖套餐"></picture></a></div><!-- left middle-top middle middle-bottom right have-bg text-middle text-right --><div class="item-content left text-left"  > <div class="tip" style="background-color: #fcba02">30天价保</div> <div class="name">Surface Pro 7 键盘盖套餐</div><p class="describe">酷睿 i5 8GB 128GB + 专业键盘盖</p> <div class="price_information"></div>  <div class="payment"> 套餐价 <strong> ￥7,688.00</strong>起 </div><div class="content-bottom"> <div class="buy-btn " role="button"><a style="background-color: " href="/surface-pro-7-configurate#color=5483&specification=5638&bundletype=15?Icid=Rollherobannernavigation2_surfacepro7_20201219">立即购买</a></div> </div> <div class="additional_information"><span></span> <span> </span></div></div></div>  <div class="item swiper-slide"><div class="bg-img"><a href="javascript:void(0)" title="Surface Laptop 3" aria-label="Surface Laptop 3" tabindex="-1"><picture> <source media="(max-width:768px)" srcset="https://cdn.microsoftstore.com.cn/media/homepage/210322_homepagebanner_MB_3.jpg">  <img src="https://cdn.microsoftstore.com.cn/media/homepage/210322_homepagebanner_PC_3.jpg" alt="Surface Laptop 3"></picture></a></div><!-- left middle-top middle middle-bottom right have-bg text-middle text-right --><div class="item-content left text-left"  > <div class="tip" style="background-color: #fcba02">30天价保</div> <div class="name">Surface Laptop 3</div><p class="describe">13.5英寸酷睿 i5 8GB 256GB</p> <div class="price_information"></div>  <div class="payment">  <strong> ￥ 9,728.00</strong>起 </div><div class="content-bottom"> <div class="buy-btn " role="button"><a style="background-color: " href="/surface-laptop-3-configurate#color=5485&specification=5631&size=5509&bundletype=30?Icid=Rollherobannernavigation3_surfacelaptop3_20201219">立即购买</a></div> </div> <div class="additional_information"><span></span> <span> </span></div></div></div>  <div class="item swiper-slide"><div class="bg-img"><a href="javascript:void(0)" title="全新 Surface Laptop Go" aria-label="全新 Surface Laptop Go" tabindex="-1"><picture> <source media="(max-width:768px)" srcset="https://cdn.microsoftstore.com.cn/media/homepage/210322_homepagebanner_MB_4.jpg">  <img src="https://cdn.microsoftstore.com.cn/media/homepage/210322_homepagebanner_PC_4.jpg" alt="全新 Surface Laptop Go"></picture></a></div><!-- left middle-top middle middle-bottom right have-bg text-middle text-right --><div class="item-content left text-left"  > <div class="name">全新 Surface Laptop Go</div><p class="describe">酷睿 i5 8GB 128GB，满足多重需求，彰显出众价值</p> <div class="price_information"></div>  <div class="payment">  <strong> ￥ 5,488.00</strong>起 </div><div class="content-bottom"> <div class="buy-btn " role="button"><a style="background-color: " href="/surface-laptop-go-configurate#color=5492&specification=5638&bundletype=30?Icid=Rollherobannernavigation4_surfacelaptopgo_20201201">立即购买</a></div> </div> <div class="additional_information"><span></span> <span> </span></div></div></div>  <div class="item swiper-slide"><div class="bg-img"><a href="javascript:void(0)" title="以旧换新立省600元" aria-label="以旧换新立省600元" tabindex="-1"><picture> <source media="(max-width:768px)" srcset="https://cdn.microsoftstore.com.cn/media/homepage/210322_homepagebanner_MB_8.jpg">  <img src="https://cdn.microsoftstore.com.cn/media/homepage/210322_homepagebanner_PC_8.jpg" alt="以旧换新立省600元"></picture></a></div><!-- left middle-top middle middle-bottom right have-bg text-middle text-right --><div class="item-content left text-left"  > <div class="name">以旧换新立省600元</div><p class="describe">Surface Pro 7，Surface Laptop 3 指定官网特别机型以旧换新立省600元，支持“先购机，后回收”</p> <div class="price_information"></div>  <div class="payment"></div><div class="content-bottom"> <div class="buy-btn " role="button"><a style="background-color: " href="/tradein?Icid=Rollherobannernavigation6_tradein_20210301">为旧机估值</a></div> </div> <div class="additional_information"><span></span> <span> </span></div></div></div></div><div class="control"><div class="swiper-button-prev"></div><div class="swiper-pagination"></div><div class="swiper-button-next"></div></div></div></div> <div class="banner-popup-modal"><div class="banner-popup-modal-head"><h3>邀请好友，喜获微软官方红包袋</h3><div><div data-content-type="row" data-appearance="contained" data-element="main"><div data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-background-type="image" data-video-loop="true" data-video-play-only-visible="true" data-video-lazy-load="true" data-video-fallback-src="" data-element="inner" style="justify-content: flex-start; display: flex; flex-direction: column; background-position: left top; background-size: cover; background-repeat: no-repeat; background-attachment: scroll; border-style: none; border-width: 1px; border-radius: 0px; margin: 0px 0px 10px; padding: 10px;"><div data-content-type="html" data-appearance="default" data-element="main" style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-decoded="true"><p>2021年1月15日至2021年1月31日期间，成功提交以下信息，将有机会获赠微软官方定制新春红包袋，共限量66名。成功邀请好友参与，获赠机会更高（受邀者申请时需填写邀请人手机号码）。<a href="/support-and-help/coupon-faq">了解详情</a></p></div></div></div></div></div><form action="https://www.microsoftstore.com.cn/activities/info/save/" method="post" id="banner-popup-activities-form" data-hasrequired="* Required Fields" data-mage-init='{"validation": {}}'><input name="form_key" type="hidden" value="WTyAs1TIluwGHdXe" /> <div class="customer-name-wrapper left-wrapper required"><label for="customer-name">姓名</label> <input name="name" id="customer-name" data-validate="{'required-bannerPopup-name':true,'rule-bannerPopup-name':true}" placeholder="请输入姓名"></div><div class="customer-phone-wrapper required"><label for="customer-phone">手机号码</label> <input name="phone" id="customer-phone" class="input-text-phone" placeholder="请输入手机号码"><p class="phoneError errorMsg"></p></div><div class="customer-email-wrapper left-wrapper required"><label for="customer-email">邮箱</label> <input name="email" id="customer-email" data-validate="{'required-subscribe-email':true,'rule-subscribe-email':true}" aria-required="true" placeholder="邮箱"></div><div class="CaptchaFlex CaptchaFlex-wrapper"><div class="control CaptchaFlexLeft"><label for="pass">验证码</label> <input name="dynamicpassword" value="" id="pass" type="text" class="input-text input-text-dynamicpassword" title="" maxlength="6" placeholder="动态密码"/><p class="codeError errorMsg"></p></div><div class="CaptchaFlexRight"><a href="javascript:void(0)" role="button" class="unactive">获取动态密码</a></div></div><div class="referrer-phone-wrapper left-wrapper"><label for="referrer-phone"><span>邀请人<br></span><span>手机号码</span></label> <input name="referrer_phone" id="referrer-phone" class="input-text-referrer" data-validate="{'rule-bannerPopup-referrerPhone':true}" placeholder="邀请人手机号码"></div><div></div><div class="consent-box choice"><input type="checkbox" class="checkbox required-checkbox" id="member-consent" name="member-consent" /><label class="label" for="member-consent"><span>我同意接收微软官方商城有关Microsoft 产品和服务的信息，提示和产品优惠通知。详情请见微软<a target="_blank" id="privacy-policy" href="https://privacy.microsoft.com/zh-cn/privacystatement" >隐私声明。</a></span></label></div><div class="submit-wrapper"><button type="submit" value="submit " class="submit action primary"><span>提交申请</span></button></div></form><p class="bottomError errorMsg"></p></div><script type="text/x-magento-init">
+    {
+        ".banner-info-collector-popup": {
+            "IsobarCommerce_MarketingActivities/js/banner-popup": {},
+            "IsobarCommerce_MarketingActivities/js/sms": {"getUrls":{"sendurl":"https:\/\/www.microsoftstore.com.cn\/sms\/verifycode\/send\/","checkurl":"https:\/\/www.microsoftstore.com.cn\/sms\/verifycode\/check\/","saveurl":"https:\/\/www.microsoftstore.com.cn\/activities\/info\/save\/"}}
+        }
+    }</script></div><input name="form_key" type="hidden" value="WTyAs1TIluwGHdXe" /> <div id="authenticationPopup" data-bind="scope:'authenticationPopup'" style="display: none;"><script>
+        window.authenticationPopup = {"autocomplete":"off","customerRegisterUrl":"https:\/\/www.microsoftstore.com.cn\/customer\/account\/create\/","customerForgotPasswordUrl":"https:\/\/www.microsoftstore.com.cn\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/www.microsoftstore.com.cn\/"};</script><!-- ko template: getTemplate() --><!-- /ko --><script type="text/x-magento-init">
+        {
+            "#authenticationPopup": {
+                "Magento_Ui/js/core/app": {"components":{"authenticationPopup":{"component":"Magento_Customer\/js\/view\/authentication-popup","children":{"messages":{"component":"Magento_Ui\/js\/view\/messages","displayArea":"messages"},"captcha":{"component":"Magento_Captcha\/js\/view\/checkout\/loginCaptcha","displayArea":"additional-login-form-fields","formId":"user_login","configSource":"checkout"}}}}}            },
+            "*": {
+                "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Fcdn.microsoftstore.com.cn\u002Fstatic\u002Fversion1616422545\u002Ffrontend\u002FMicrosoft\u002Frwd\u002Fzh_Hans_CN\u002Fimages\u002Floader\u002D1.gif"
+            }
+        }</script></div> <script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/section-config": {
+                "sections": {"stores\/store\/switch":["*"],"stores\/store\/switchrequest":["*"],"directory\/currency\/switch":["*"],"*":["messages"],"customer\/account\/logout":["*","recently_viewed_product","recently_compared_product","persistent"],"customer\/account\/loginpost":["*"],"customer\/account\/createpost":["*"],"customer\/account\/editpost":["*"],"customer\/ajax\/login":["checkout-data","cart","captcha"],"catalog\/product_compare\/add":["compare-products"],"catalog\/product_compare\/remove":["compare-products"],"catalog\/product_compare\/clear":["compare-products"],"sales\/guest\/reorder":["cart","ammessages"],"sales\/order\/reorder":["cart","ammessages"],"checkout\/cart\/add":["cart","directory-data","ammessages","coupon-data"],"checkout\/cart\/delete":["cart","ammessages"],"checkout\/cart\/updatepost":["cart","ammessages"],"checkout\/cart\/updateitemoptions":["cart","ammessages"],"checkout\/cart\/couponpost":["cart","ammessages"],"checkout\/cart\/estimatepost":["cart","ammessages"],"checkout\/cart\/estimateupdatepost":["cart","ammessages"],"checkout\/onepage\/saveorder":["cart","checkout-data","last-ordered-items","ammessages","coupon-data"],"checkout\/sidebar\/removeitem":["cart","ammessages"],"checkout\/sidebar\/updateitemqty":["cart","ammessages"],"rest\/*\/v1\/carts\/*\/payment-information":["cart","last-ordered-items","instant-purchase","ammessages"],"rest\/*\/v1\/guest-carts\/*\/payment-information":["cart","ammessages"],"rest\/*\/v1\/guest-carts\/*\/selected-payment-method":["cart","checkout-data","ammessages"],"rest\/*\/v1\/carts\/*\/selected-payment-method":["cart","checkout-data","instant-purchase","ammessages"],"wishlist\/index\/add":["wishlist"],"wishlist\/index\/remove":["wishlist"],"wishlist\/index\/updateitemoptions":["wishlist"],"wishlist\/index\/update":["wishlist"],"wishlist\/index\/cart":["wishlist","cart"],"wishlist\/index\/fromcart":["wishlist","cart"],"wishlist\/index\/allcart":["wishlist","cart"],"wishlist\/shared\/allcart":["wishlist","cart"],"wishlist\/shared\/cart":["cart"],"customer_order\/cart\/updatefaileditemoptions":["cart"],"checkout\/cart\/updatefaileditemoptions":["cart"],"customer_order\/cart\/advancedadd":["cart"],"checkout\/cart\/advancedadd":["cart"],"checkout\/cart\/removeallfailed":["cart"],"customer_order\/cart\/addfaileditems":["cart"],"checkout\/cart\/addfaileditems":["cart"],"customer_order\/sku\/uploadfile":["cart"],"customer\/address\/*":["instant-purchase"],"customer\/account\/*":["instant-purchase"],"vault\/cards\/deleteaction":["instant-purchase"],"wishlist\/index\/copyitem":["wishlist"],"wishlist\/index\/copyitems":["wishlist"],"wishlist\/index\/deletewishlist":["wishlist","multiplewishlist"],"wishlist\/index\/createwishlist":["multiplewishlist"],"wishlist\/index\/editwishlist":["multiplewishlist"],"wishlist\/index\/moveitem":["wishlist"],"wishlist\/index\/moveitems":["wishlist"],"wishlist\/search\/addtocart":["cart","wishlist"],"multishipping\/checkout\/overviewpost":["cart","ammessages"],"giftregistry\/index\/cart":["cart"],"giftregistry\/view\/addtocart":["cart"],"persistent\/index\/unsetcookie":["persistent"],"review\/product\/post":["review"],"amasty_promo\/cart\/add":["cart","ammessages"],"paypal\/express\/placeorder":["ammessages"],"paypal\/payflowexpress\/placeorder":["ammessages"],"paypal\/express\/onauthorization":["ammessages"],"braintree\/paypal\/placeorder":["ammessages"],"authorizenet\/directpost_payment\/place":["ammessages"],"customer\/address\/formpost":["addresses-data"],"customer\/address\/delete":["addresses-data"],"custom\/address\/setdefault":["addresses-data"],"coupon\/ajax\/apply":["coupon-data"],"checkout\/cart\/index":["coupon-data"],"sociallogin\/mobile\/loginpost":["coupon-data"],"sociallogin\/alipay\/authback":["coupon-data"],"sociallogin\/msa\/authback":["coupon-data"],"sociallogin\/wechat\/authback":["coupon-data"]},
+                "clientSideSections": ["checkout-data","cart-data"],
+                "baseUrls": ["https:\/\/www.microsoftstore.com.cn\/"],
+                "sectionNames": ["messages","customer","last-ordered-items","cart","directory-data","captcha","wishlist","instant-purchase","multiplewishlist","persistent","review","ammessages","grouped-product-data","addresses-data","directory-city-data","directory-district-data","coupon-data","product_data_storage"]            }
+        }
+    }</script> <script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/customer-data": {
+                "sectionLoadUrl": "https\u003A\u002F\u002Fwww.microsoftstore.com.cn\u002Fcustomer\u002Fsection\u002Fload\u002F",
+                "expirableSectionLifetime": 60,
+                "expirableSectionNames": ["cart","persistent"],
+                "cookieLifeTime": "3600",
+                "updateSessionUrl": "https\u003A\u002F\u002Fwww.microsoftstore.com.cn\u002Fcustomer\u002Faccount\u002FupdateSession\u002F"
+            }
+        }
+    }</script> <script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/invalidation-processor": {
+                "invalidationRules": {
+                    "website-rule": {
+                        "Magento_Customer/js/invalidation-rules/website-rule": {
+                            "scopeConfig": {
+                                "websiteId": "1"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }</script> <script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.microsoftstore.com.cn\/page_cache\/block\/render\/","handles":["default","cms_index_index","cms_page_view","cms_index_index_id_home"],"originalRequest":{"route":"cms","controller":"index","action":"index","uri":"\/"},"versionCookieName":"private_content_version"}        }
+    }</script> <script type="text/x-magento-init">
+{
+    "*": {
+        "Magento_Banner/js/model/banner":
+            {"sectionLoadUrl":"https:\/\/www.microsoftstore.com.cn\/banner\/ajax\/load\/","cacheTtl":30000}        }
+}</script>   <script data-role="msrp-popup-template" type="text/x-magento-template">
+    <div id="map-popup-click-for-price" class="map-popup">
+        <div class="popup-header">
+            <strong class="title" id="map-popup-heading-price"></strong></div>
+        <div class="popup-content">
+            <div class="map-info-price" id="map-popup-content">
+                <div class="price-box">
+                    <div class="map-msrp" id="map-popup-msrp-box">
+                        <span class="label">价格</span>
+                        <span class="old-price map-old-price" id="map-popup-msrp">
+                            <span class="price"></span></span></div>
+                    <div class="map-price" id="map-popup-price-box">
+                        <span class="label">Actual Price</span>
+                        <span id="map-popup-price" class="actual-price"></span></div></div>
+                <form action="" method="POST" class="map-form-addtocart">
+                    <input type="hidden" name="product" class="product_id" value="" />
+                    <button type="button"
+                            title="&#x52A0;&#x5165;&#x8D2D;&#x7269;&#x8F66;"
+                            class="action tocart primary">
+                        <span>加入购物车</span></button>
+                    <div class="additional-addtocart-box">
+                        </div></form></div>
+            <div class="map-text" id="map-popup-text">
+                Our price is lower than the manufacturer&#039;s &quot;minimum advertised price.&quot; As a result, we cannot show you the price in catalog or the product page. <br><br> You have no obligation to purchase the product once you know the price. You can simply remove the item from your cart.</div></div></div></script><script data-role="msrp-info-template" type="text/x-magento-template">
+    <div id="map-popup-what-this" class="map-popup">
+        <div class="popup-header">
+            <strong class="title" id="map-popup-heading-what-this"></strong></div>
+        <div class="popup-content">
+            <div class="map-help-text" id="map-popup-text-what-this">
+                Our price is lower than the manufacturer&#039;s &quot;minimum advertised price.&quot; As a result, we cannot show you the price in catalog or the product page. <br><br> You have no obligation to purchase the product once you know the price. You can simply remove the item from your cart.</div></div></div></script><div class="block-catalog-icon"><div data-content-type="row" data-appearance="contained" data-element="main"><div data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-background-type="image" data-video-loop="true" data-video-play-only-visible="true" data-video-lazy-load="true" data-video-fallback-src="" data-element="inner" style="justify-content: flex-start; display: flex; flex-direction: column; background-position: left top; background-size: cover; background-repeat: no-repeat; background-attachment: scroll; border-style: none; border-width: 1px; border-radius: 0px; margin: 0px 0px 10px; padding: 10px;"><div data-content-type="html" data-appearance="default" data-element="main" style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-decoded="true"><div class="category-group">
+    <ul class="group-pc">
+        <li>
+            <a href="/hardware/surface">
+                <i class="icon-surface"></i>
+                <span>
+                    Surface
+                </span>
+            </a>
+        </li>
+ <li>
+            <a href="/hardware/surface/refurbishedsurface">
+                <i class="icon-refurbished"></i>
+                <span>
+                    认证翻新 Surface
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="/software/microsoft-365">
+                <i class="icon-microsoft-365"></i>
+                <span>
+                    Microsoft 365
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="/hardware/xbox-game">
+                <i class="icon-xbox"></i>
+                <span>
+                    Xbox+游戏
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="/software/windows">
+                <i class="icon-windows"></i>
+                <span>
+                    Windows
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="/hardware/vr-and-mr">
+                <i class="icon-virtual-eyes"></i>
+                <span>
+                    混合现实
+                </span>
+            </a>
+        </li>
+
+       
+        <li>
+            <a href="/msstorepromise">
+                <i style="display: inline-block;height: 40px;width: 40px;text-align: center;line-height: 40px;"><img src="https://cdn.microsoftstore.com.cn/media/homepage/category_icon/msstorepromise1.png"
+                        alt="" /></i>
+                <span>商城承诺</span>
+            </a>
+        </li>
+
+    </ul>
+    <ul class="group-mobile">
+        <li>
+            <a href="/hardware/surface">
+                <i class="icon-surface"></i>
+                <span>
+                    Surface
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="/software/microsoft-365">
+                <i class="icon-microsoft-365"></i>
+                <span>
+                    Microsoft 365
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="/hardware/xbox-game">
+                <i class="icon-xbox"></i>
+                <span>
+                    Xbox+游戏
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="/software/windows">
+                <i class="icon-windows"></i>
+                <span>
+                    Windows
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="/hardware/vr-and-mr">
+                <i class="icon-virtual-eyes"></i>
+                <span>
+                    混合现实
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="/hardware/accessories">
+                <i class="icon-mouse"></i>
+                <span>
+                    配件
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="/software/apps">
+                <i class="icon-game-handle"></i>
+                <span>
+                    游戏
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="/hardware/surface/refurbishedsurface">
+                <i class="icon-refurbished"></i>
+                <span>认证翻新 Surface
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="/tradein">
+                <i class="icon-renew"></i>
+                <span>
+                    以旧换新
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="/student">
+                <i class="icon-cap"></i>
+                <span>
+                    教育优惠
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="/commercial">
+                <i class="icon-business-bag"></i>
+                <span>
+                    商务专区
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="/promotion">
+                <i class="icon-tag"></i>
+                <span>
+                    优惠活动
+                </span>
+            </a>
+        </li>
+
+    </ul>
+</div></div></div></div></div><div class="block-catalog-product">    <div class="category-product"> <div class="item"><img src="https://cdn.microsoftstore.com.cn/media/homepage/1219_top1.png" alt=""/><div class="product-detail"> <div class="inner">Surface Pro 7 酷睿 i5 8GB 256GB 键盘盖套餐9,688元起 <br/></div></div><a href="/surface-pro-7-configurate#color=5483&amp;specification=5639&amp;bundletype=15?Icid=FourImageNav1_surfacepro7_20201219" class="buy-now"><div class="buy-btn">立即购买</div><i class="icon-arrow-right"></i></a></div> <div class="item"><img src="https://cdn.microsoftstore.com.cn/media/homepage/210113_top2.png" alt=""/><div class="product-detail"> <div class="inner">Surface Laptop 3 酷睿 i7 16GB 256GB，时尚四色可选 <br/></div></div><a href="/surface-laptop-3-configurate#color=5485&amp;specification=5632&amp;size=5509&amp;bundletype=30?Icid=FourImageNav2_surfacelaptop3_20201201" class="buy-now"><div class="buy-btn">立即购买</div><i class="icon-arrow-right"></i></a></div> <div class="item"><img src="https://cdn.microsoftstore.com.cn/media/homepage/1111_top3.png" alt=""/><div class="product-detail"> <div class="inner">Surface Book 3 15英寸酷睿 i7 32GB 512GB，性能巨匠 <br/></div></div><a href="/surface-book-3-configurate#specification=5602&amp;size=5510&amp;bundletype=30?Icid=FourImageNav3_surfacebook3_20201201" class="buy-now"><div class="buy-btn">立即购买</div><i class="icon-arrow-right"></i></a></div> <div class="item"><img src="https://cdn.microsoftstore.com.cn/media/homepage/0324_top4.png" alt=""/><div class="product-detail"> <div class="installment">预售</div> <div class="inner">Xbox 无线控制器（锦鲤红），全新灵动配色，提升游戏体验 <br/></div></div><a href="/gaming/xbox-wireless-controller?Icid=FourImageNav4_xboxcontroller_20210324" class="buy-now"><div class="buy-btn">立即购买</div><i class="icon-arrow-right"></i></a></div></div> </div><div class="block-recommend">    <div class="product-recommends"><h3>店长推荐</h3><div class="recommends-banner"><div class=" recommends-swiper-container swiper-container"><div class="recommends-container swiper-wrapper"> <div class="list swiper-slide"><img src="https://cdn.microsoftstore.com.cn/media/homepage/1112_rec-1-1111.png" alt=""/><div class="content-box"><div class="name"> <div class="inner">Surface Pro 7 </div></div><div class="product-detail">酷睿 i7 16GB 256GB 键盘盖套餐</div></div>  <div class="price"><span>售价：</span> <strong> <span>￥ 12,588.00</span> <span>起</span></strong></div> <a href="/surface-pro-7-configurate#color=5483&specification=5573&bundletype=15?Icid=Recommend1_surfacepro7i5_20201219" class="buy-now"><div class="buy-btn">立即购买</div><i class="icon-arrow-right"></i></a></div> <div class="list swiper-slide"><img src="https://cdn.microsoftstore.com.cn/media/homepage/210113-rec-2.png" alt=""/><div class="content-box"><div class="name"> <div class="inner">Surface Laptop 3</div></div><div class="product-detail">13.5英寸酷睿 i5 8GB 256GB</div></div>  <div class="price"><span>售价：</span> <strong> <span>￥ 9,728.00</span> <span>起</span></strong></div> <a href="/surface-laptop-3-configurate#color=5484&specification=5631&size=5509&bundletype=30?Icid=Recommend2_surfacelaptop3_20201201" class="buy-now"><div class="buy-btn">立即购买</div><i class="icon-arrow-right"></i></a></div> <div class="list swiper-slide"><img src="https://cdn.microsoftstore.com.cn/media/homepage/rec-3-1028.png" alt=""/><div class="content-box"><div class="name"> <div class="inner">Surface Go 2</div></div><div class="product-detail">奔腾 4425Y 8GB 128GB WiFi 版</div></div>  <div class="price"><span>售价：</span> <strong> <span>￥ 3,988.00</span> <span>起</span></strong></div> <a href="/surface-go-2-configurate#specification=5596&bundletype=30?Icid=Recommend3_surfacego2_20201201" class="buy-now"><div class="buy-btn">立即购买</div><i class="icon-arrow-right"></i></a></div> <div class="list swiper-slide"><img src="https://cdn.microsoftstore.com.cn/media/homepage/210310-rec-4.png" alt=""/><div class="content-box"><div class="name"> <div class="inner">Surface Laptop Go</div></div><div class="product-detail">酷睿 i5 8GB 128GB 冰晶蓝</div></div>  <div class="price"><span>售价：</span> <strong> <span>￥ 5,488.00</span> <span>起</span></strong></div> <a href="/surface-laptop-go-configurate#color=5492&specification=5638&bundletype=30?Icid=Recommend4_surfacelaptopgo_20210310" class="buy-now"><div class="buy-btn">立即购买</div><i class="icon-arrow-right"></i></a></div> <div class="list swiper-slide"><img src="https://cdn.microsoftstore.com.cn/media/homepage/210220-rec-5.png" alt=""/><div class="content-box"><div class="name"> <div class="inner">Surface Pro X</div></div><div class="product-detail">Microsoft SQ 1 8GB 256GB</div></div>  <div class="price"><span>售价：</span> <strong> <span>￥ 9,988.00</span> <span>起</span></strong></div> <a href="/surface-pro-x-configurate#color=5484&specification=5576&bundletype=30?Icid=Recommend5_surfaceprox_20210310" class="buy-now"><div class="buy-btn">立即购买</div><i class="icon-arrow-right"></i></a></div> <div class="list swiper-slide"><img src="https://cdn.microsoftstore.com.cn/media/homepage/0324-rec-6.png" alt=""/><div class="content-box"><div class="name"> <div class="inner">Xbox One S 1TB</div></div><div class="product-detail">内含 Xbox 无线控制器</div></div>  <div class="price"><span>售价：</span> <strong> <span>￥ 2,338.00</span> <span>起</span></strong></div> <a href="/xbox/xbox-one-s?Icid=Recommend6_xboxones_20210324" class="buy-now"><div class="buy-btn">立即购买</div><i class="icon-arrow-right"></i></a></div></div></div><div class="swiper-button-prev"></div><div class="swiper-button-next"></div></div></div> </div><div class="block-product">    <div class="surface-container product-container "><h3>Surface</h3><div class="product-list"><div class="product-detail"><div class="img-box"><picture><source media="(max-width:787px)" srcset="https://cdn.microsoftstore.com.cn/media/homepage/hp_1.png"><img src="https://cdn.microsoftstore.com.cn/media/homepage/hp_1.png" alt=""/></picture></div><div class="detail-box"><div class="title"><div class="line-before">卓越生产力，非凡创造力</div></div><a href="/hardware/surface" class="know-more">了解详情</a></div></div><ul class="item-box"> <li class="item"><div class="img-box"><picture><source media="(max-width:787px)" srcset="https://cdn.microsoftstore.com.cn/media/homepage/1021_HP_Surf_1.png"><img src="https://cdn.microsoftstore.com.cn/media/homepage/1021_HP_Surf_1.png" alt=""/></picture></div><div class="detail-box"><div class="content-box"><div class="name"> <div class="title">Surface Laptop Go</div></div><div class="detail">日日相伴，如影随形，更为轻盈的12.4英寸 Surface Laptop</div></div>  <div class="price"><span>售价：</span> <strong> <span>￥ 4,388.00</span> <span>起</span></strong></div> <a href="/surface/surface-laptop-go?Icid=HomepageSurfaceproduct1_surfacelaptopgo_20201101" class="buy-now"><div class="buy-btn">立即购买</div><i class="icon-arrow-right"></i></a></div></li>  <li class="item"><div class="img-box"><picture><source media="(max-width:787px)" srcset="https://cdn.microsoftstore.com.cn/media/homepage/1021_HP_Surf_2.png"><img src="https://cdn.microsoftstore.com.cn/media/homepage/1021_HP_Surf_2.png" alt=""/></picture></div><div class="detail-box"><div class="content-box"><div class="name"> <div class="title">Surface Pro X</div></div><div class="detail">轻薄便携，自在畅连，搭载新一代处理器，可选全新颜色亮铂金</div></div>  <div class="price"><span>售价：</span> <strong> <span>￥ 12,188.00</span> <span>起</span></strong></div> <a href="/surface-pro-x-configurate#color=5483&specification=5794&bundletype=30?Icid=HomepageSurfaceproduct2_surfaceprox_20201101" class="buy-now"><div class="buy-btn">立即购买</div><i class="icon-arrow-right"></i></a></div></li>  <li class="item"><div class="img-box"><picture><source media="(max-width:787px)" srcset="https://cdn.microsoftstore.com.cn/media/homepage/HP_Surf_3.png"><img src="https://cdn.microsoftstore.com.cn/media/homepage/HP_Surf_3.png" alt=""/></picture></div><div class="detail-box"><div class="content-box"><div class="name"> <div class="title">Surface Studio 2</div></div><div class="detail">你的创意工作室</div></div>  <div class="price"><span>售价：</span> <strong> <span>￥ 29,108.00</span> <span>起</span></strong></div> <a href="/surface/surface-studio-2?Icid=HomepageSurfaceproduct3_surfacestudio2_20201101" class="buy-now"><div class="buy-btn">立即购买</div><i class="icon-arrow-right"></i></a></div></li> </ul></div></div> <div class="surface-container product-container "><h3>Office</h3><div class="product-list"><div class="product-detail"><div class="img-box"><picture><source media="(max-width:787px)" srcset="https://cdn.microsoftstore.com.cn/media/homepage/hp_2.png"><img src="https://cdn.microsoftstore.com.cn/media/homepage/hp_2.png" alt=""/></picture></div><div class="detail-box"><div class="title"><div class="line-before">Microsoft 365，成就工作生活家</div></div><a href="/software/microsoft-365" class="know-more">了解详情</a></div></div><ul class="item-box"> <li class="item"><div class="img-box"><picture><source media="(max-width:787px)" srcset="https://cdn.microsoftstore.com.cn/media/product_list/HP_office_1.png"><img src="https://cdn.microsoftstore.com.cn/media/product_list/HP_office_1.png" alt=""/></picture></div><div class="detail-box"><div class="content-box"><div class="name"> <div class="new">6人使用</div> <div class="title">Microsoft 365 家庭版</div></div><div class="detail">可供多达6人共享，订阅期内享持续更新</div></div>  <div class="price"><span>售价：</span> <strong> <span>￥ 498.00</span> <span></span></strong></div> <a href="/microsoft365/microsoft-365-family" class="buy-now"><div class="buy-btn">立即购买</div><i class="icon-arrow-right"></i></a></div></li>  <li class="item"><div class="img-box"><picture><source media="(max-width:787px)" srcset="https://cdn.microsoftstore.com.cn/media/product_list/HP_office_2.png"><img src="https://cdn.microsoftstore.com.cn/media/product_list/HP_office_2.png" alt=""/></picture></div><div class="detail-box"><div class="content-box"><div class="name"> <div class="new">1人使用</div> <div class="title">Microsoft 365 个人版</div></div><div class="detail">可在所有设备安装，订阅期内享持续更新</div></div>  <div class="price"><span>售价：</span> <strong> <span>￥ 398.00</span> <span></span></strong></div> <a href="/microsoft365/microsoft-365-personal" class="buy-now"><div class="buy-btn">立即购买</div><i class="icon-arrow-right"></i></a></div></li>  <li class="item"><div class="img-box"><picture><source media="(max-width:787px)" srcset="https://cdn.microsoftstore.com.cn/media/product_list/HP_office_3.png"><img src="https://cdn.microsoftstore.com.cn/media/product_list/HP_office_3.png" alt=""/></picture></div><div class="detail-box"><div class="content-box"><div class="name"> <div class="title">Office 家庭和学生版 2019</div></div><div class="detail">2019 版经典应用，一次购买，永久使用</div></div>  <div class="price"><span>售价：</span> <strong> <span>￥ 748.00</span> <span></span></strong></div> <a href="/office/office-home-student-2019" class="buy-now"><div class="buy-btn">立即购买</div><i class="icon-arrow-right"></i></a></div></li> </ul></div></div> <div class="surface-container product-container "><h3>Xbox</h3><div class="product-list"><div class="product-detail"><div class="img-box"><picture><source media="(max-width:787px)" srcset="https://cdn.microsoftstore.com.cn/media/homepage/210324_hp_3.png"><img src="https://cdn.microsoftstore.com.cn/media/homepage/210324_hp_3.png" alt=""/></picture></div><div class="detail-box"><div class="title"><div class="line-before">劲畅游戏体验，一触即发</div></div><a href="/hardware/xbox-game" class="know-more">了解详情</a></div></div><ul class="item-box"> <li class="item"><div class="img-box"><picture><source media="(max-width:787px)" srcset="https://cdn.microsoftstore.com.cn/media/homepage/HP_xbox_2_210324.png"><img src="https://cdn.microsoftstore.com.cn/media/homepage/HP_xbox_2_210324.png" alt=""/></picture></div><div class="detail-box"><div class="content-box"><div class="name"> <div class="title">Xbox 无线控制器</div></div><div class="detail">提升你的游戏体验</div></div>  <div class="price"><span>售价：</span> <strong> <span>￥ 419.00</span> <span></span></strong></div> <a href="/gaming/xbox-wireless-controller?Icid=HomepageXboxproduct2_xboxwirelesscontroller_20210113" class="buy-now"><div class="buy-btn">立即购买</div><i class="icon-arrow-right"></i></a></div></li>  <li class="item"><div class="img-box"><picture><source media="(max-width:787px)" srcset="https://cdn.microsoftstore.com.cn/media/homepage/test-HP_xbox_3_1028.png"><img src="https://cdn.microsoftstore.com.cn/media/homepage/test-HP_xbox_3_1028.png" alt=""/></picture></div><div class="detail-box"><div class="content-box"><div class="name"> <div class="title">Xbox One S 1TB</div></div><div class="detail">内含 Xbox 无线控制器</div></div>  <div class="price"><span>售价：</span> <strong> <span>￥ 2,338.00</span> <span></span></strong></div> <a href="/xbox/xbox-one-s?Icid=HomepageXboxproduct3_xboxones_20201101" class="buy-now"><div class="buy-btn">立即购买</div><i class="icon-arrow-right"></i></a></div></li>  <li class="item"><div class="img-box"><picture><source media="(max-width:787px)" srcset="https://cdn.microsoftstore.com.cn/media/homepage/HP_xbox_1_210318.png"><img src="https://cdn.microsoftstore.com.cn/media/homepage/HP_xbox_1_210318.png" alt=""/></picture></div><div class="detail-box"><div class="content-box"><div class="name"> <div class="title">Xbox Elite 无线控制器 2 代</div></div><div class="detail">玩出高手风范</div></div>  <div class="price"><span>售价：</span> <strong> <span>￥ 1,398.00</span> <span></span></strong></div> <a href="/accessories/xbox-elite-controller-series-2?Icid=HomepageXboxproduct1_xboxelite_20210318" class="buy-now"><div class="buy-btn">立即购买</div><i class="icon-arrow-right"></i></a></div></li> </ul></div></div> <div class="surface-container product-container "><h3>配件</h3><div class="product-list"><div class="product-detail"><div class="img-box"><picture><source media="(max-width:787px)" srcset="https://cdn.microsoftstore.com.cn/media/homepage/210113_hp_4.png"><img src="https://cdn.microsoftstore.com.cn/media/homepage/210113_hp_4.png" alt=""/></picture></div><div class="detail-box"><div class="title"><div class="line-before">激发设备潜能，畅享品质生活</div></div><a href="/hardware/accessories" class="know-more">了解详情</a></div></div><ul class="item-box"> <li class="item"><div class="img-box"><picture><source media="(max-width:787px)" srcset="https://cdn.microsoftstore.com.cn/media/homepage/210308_HP_acc_1.png"><img src="https://cdn.microsoftstore.com.cn/media/homepage/210308_HP_acc_1.png" alt=""/></picture></div><div class="detail-box"><div class="content-box"><div class="name"> <div class="new">新品</div> <div class="title">微软设计师键盘</div></div><div class="detail">紧凑设计，纤薄便携，蓝牙5.0连接，可配对多达3台设备</div></div>  <div class="price"><span>售价：</span> <strong> <span>￥ 559.00</span> <span></span></strong></div> <a href="/accessories/microsoft-designer-compact-keyboard?Icid=HomepageAccproduct1_microsoftdesignercompactkeyboard_20210308" class="buy-now"><div class="buy-btn">立即购买</div><i class="icon-arrow-right"></i></a></div></li>  <li class="item"><div class="img-box"><picture><source media="(max-width:787px)" srcset="https://cdn.microsoftstore.com.cn/media/homepage/1224_HP_acc_2.png"><img src="https://cdn.microsoftstore.com.cn/media/homepage/1224_HP_acc_2.png" alt=""/></picture></div><div class="detail-box"><div class="content-box"><div class="name"> <div class="title">微软 4K 无线显示适配器</div></div><div class="detail">快速连接，操作便捷，更流畅更清晰的大屏观看体验</div></div>  <div class="price"><span>售价：</span> <strong> <span>￥ 499.00</span> <span></span></strong></div> <a href="/accessories/microsoft-4k-wireless-display-adapter?Icid=HomepageAccproduct2_4kwirelessdisplayadapter_20201224" class="buy-now"><div class="buy-btn">立即购买</div><i class="icon-arrow-right"></i></a></div></li>  <li class="item"><div class="img-box"><picture><source media="(max-width:787px)" srcset="https://cdn.microsoftstore.com.cn/media/homepage/210113_HP_acc_3.png"><img src="https://cdn.microsoftstore.com.cn/media/homepage/210113_HP_acc_3.png" alt=""/></picture></div><div class="detail-box"><div class="content-box"><div class="name"> <div class="title">微软时尚设计师鼠标</div></div><div class="detail">蓝牙4.0稳定连接，轻盈便携，金属滚轮，精准操控</div></div>  <div class="price"><span>售价：</span> <strong> <span>￥ 258.00</span> <span></span></strong></div> <a href="/accessories/microsoft-mobile-mouse?Icid=HomepageAccproduct3_microsoftmobilemouse_20210113" class="buy-now"><div class="buy-btn">立即购买</div><i class="icon-arrow-right"></i></a></div></li> </ul></div></div> </div><div class="block-game"><!-- /** * Copyright © Isobar Commerce, Inc. All rights reserved. */ -->  <div class="game-container product-container "><h3>游戏</h3><div class="bg-container"><div class="game-swiper-container"><div class="swiper-wrapper item-box"> <div class="swiper-slide item"><a href=" https://www.microsoft.com/zh-cn/p/Forza Horizon 3 终极版/9NBLGGH4RQ1K" aria-label="Forza Horizon 3 终极版"><div class=""></div><div class="img"><img src="https://cdn.microsoftstore.com.cn/media//msGame/apps.43276.13510798887557960.1152921504704399102.7121fc90-4130-4667-90f7-f15d72ffc0ca-resize.png" alt="Forza Horizon 3 终极版" /></div><div class="name" title=" Forza Horizon 3 终极版"><div>Forza Horizon 3 终极版</div></div><div class="star"><div class="star-result"><span style="width: 84.0000%"></span></div></div></a></div> <div class="swiper-slide item"><a href=" https://www.microsoft.com/zh-cn/p/极限竞速：地平线 4 标准版/9PNJXVCVWD4K" aria-label="极限竞速：地平线 4 标准版"><div class=""></div><div class="img"><img src="https://cdn.microsoftstore.com.cn/media//msGame/apps.36093.14343301090572358.2000000000007864116.1feb0fed-abe9-4849-b638-8d7eca69cff4-resize.png" alt="极限竞速：地平线 4 标准版" /></div><div class="name" title=" 极限竞速：地平线 4 标准版"><div>极限竞速：地平线 4 标准版</div></div><div class="star"><div class="star-result"><span style="width: 94.0000%"></span></div></div></a></div> <div class="swiper-slide item"><a href=" https://www.microsoft.com/zh-cn/p/Forza Horizon 3 标准版/9NBLGGH4X6T9" aria-label="Forza Horizon 3 标准版"><div class=""></div><div class="img"><img src="https://cdn.microsoftstore.com.cn/media//msGame/apps.58425.13510798887550312.1152921504704377148.5ba983ef-4617-4dec-962c-03bd855030ba-resize.png" alt="Forza Horizon 3 标准版" /></div><div class="name" title=" Forza Horizon 3 标准版"><div>Forza Horizon 3 标准版</div></div><div class="star"><div class="star-result"><span style="width: 76.0000%"></span></div></div></a></div> <div class="swiper-slide item"><a href=" https://www.microsoft.com/zh-cn/p/极限竞速：地平线 4 终极版/9P513P4MWC71" aria-label="极限竞速：地平线 4 终极版"><div class=""></div><div class="img"><img src="https://cdn.microsoftstore.com.cn/media//msGame/apps.29799.14582624973508592.2000000000007863648.c6853463-3ddd-4434-ba48-0661d492be61-resize.png" alt="极限竞速：地平线 4 终极版" /></div><div class="name" title=" 极限竞速：地平线 4 终极版"><div>极限竞速：地平线 4 终极版</div></div><div class="star"><div class="star-result"><span style="width: 64.0000%"></span></div></div></a></div> <div class="swiper-slide item"><a href=" https://www.microsoft.com/zh-cn/p/极限竞速：地平线 4 终极加载捆绑包/9P7JJ1FKQWXH" aria-label="极限竞速：地平线 4 终极加载捆绑包"><div class=""></div><div class="img"><img src="https://cdn.microsoftstore.com.cn/media//msGame/apps.29799.14106535929498404.2000000000007863965.b1dc30a0-509e-4d4e-837a-81eb775e79d4-resize.png" alt="极限竞速：地平线 4 终极加载捆绑包" /></div><div class="name" title=" 极限竞速：地平线 4 终极加载捆绑包"><div>极限竞速：地平线 4 终极加载捆绑包</div></div><div class="star"><div class="star-result"><span style="width: 72.0000%"></span></div></div></a></div> <div class="swiper-slide item"><a href=" https://www.microsoft.com/zh-cn/p/《帝国时代 III：决定版》/9N1HF804QXN4" aria-label="《帝国时代 III：决定版》"><div class=""></div><div class="img"><img src="https://cdn.microsoftstore.com.cn/media//msGame/apps.44836.13905755391310011.6681c157-530b-4476-b20e-6cf142a9a94e.68338542-85c0-440d-a85c-137a38a0a268-resize.png" alt="《帝国时代 III：决定版》" /></div><div class="name" title=" 《帝国时代 III：决定版》"><div>《帝国时代 III：决定版》</div></div><div class="star"><div class="star-result"><span style="width: 82.0000%"></span></div></div></a></div> <div class="swiper-slide item"><a href=" https://www.microsoft.com/zh-cn/p/我的世界地下城英雄版 - Windows 10/9P2VR3K66TJX" aria-label="我的世界地下城英雄版 - Windows 10"><div class=""></div><div class="img"><img src="https://cdn.microsoftstore.com.cn/media//msGame/apps.42972.14550148672663383.ee586174-08fe-4da1-8648-1332879a337d.05327331-2af5-4612-9055-dcd3da3d0b38-resize.png" alt="我的世界地下城英雄版 - Windows 10" /></div><div class="name" title=" 我的世界地下城英雄版 - Windows 10"><div>我的世界地下城英雄版 - Windows 10</div></div><div class="star"><div class="star-result"><span style="width: 60.0000%"></span></div></div></a></div> <div class="swiper-slide item"><a href=" https://www.microsoft.com/zh-cn/p/Minecraft Windows 10 新手收藏/9N4KM90CTZT6" aria-label="Minecraft Windows 10 新手收藏"><div class=""></div><div class="img"><img src="https://cdn.microsoftstore.com.cn/media//msGame/apps.17382.13981634997965175.2000000000007770843.559fa263-3e4f-45fa-b25a-4e70e4218a1d-resize.png" alt="Minecraft Windows 10 新手收藏" /></div><div class="name" title=" Minecraft Windows 10 新手收藏"><div>Minecraft Windows 10 新手收藏</div></div><div class="star"><div class="star-result"><span style="width: 68.0000%"></span></div></div></a></div> <div class="swiper-slide item"><a href=" https://www.microsoft.com/zh-cn/p/我的世界地下城 - Windows 10/9P8MK4NC0LJB" aria-label="我的世界地下城 - Windows 10"><div class=""></div><div class="img"><img src="https://cdn.microsoftstore.com.cn/media//msGame/apps.2957.14089602043039621.efe46bfe-4de2-4879-a22b-f3b08650221c.dbf4f170-baf6-45ca-a7d8-6fadaba1e8b1-resize.png" alt="我的世界地下城 - Windows 10" /></div><div class="name" title=" 我的世界地下城 - Windows 10"><div>我的世界地下城 - Windows 10</div></div><div class="star"><div class="star-result"><span style="width: 68.0000%"></span></div></div></a></div> <div class="swiper-slide item"><a href=" https://www.microsoft.com/zh-cn/p/《帝国时代 II：决定版》/9NJDD0JGPP2Q" aria-label="《帝国时代 II：决定版》"><div class=""></div><div class="img"><img src="https://cdn.microsoftstore.com.cn/media//msGame/apps.55056.13678235101671609.c350aa6a-23e2-407c-94fd-5050e9bedb6f.f8b5d931-11f6-46e3-859f-54981d5b9d1b-resize.png" alt="《帝国时代 II：决定版》" /></div><div class="name" title=" 《帝国时代 II：决定版》"><div>《帝国时代 II：决定版》</div></div><div class="star"><div class="star-result"><span style="width: 92.0000%"></span></div></div></a></div> <div class="swiper-slide item"><a href=" https://www.microsoft.com/zh-cn/p/Minecraft for Windows 10 Master Collection/9PBPD1FTZLCV" aria-label="Minecraft for Windows 10 Master Collection"><div class=""></div><div class="img"><img src="https://cdn.microsoftstore.com.cn/media//msGame/apps.61010.14114766795216147.2000000000007964186.64215b50-e544-4e39-8bbc-3effb8935df4-resize.png" alt="Minecraft for Windows 10 Master Collection" /></div><div class="name" title=" Minecraft for Windows 10 Master Collection"><div>Minecraft for Windows 10 Master Collection</div></div><div class="star"><div class="star-result"><span style="width: 70.0000%"></span></div></div></a></div> <div class="swiper-slide item"><a href=" https://www.microsoft.com/zh-cn/p/Flight Unlimited X/9NBLGGH4V2WG" aria-label="Flight Unlimited X"><div class=""></div><div class="img"><img src="https://cdn.microsoftstore.com.cn/media//msGame/apps.34068.13510798887490103.e8fe5a5c-3f12-4c91-8589-e3cea1737a82.35016f07-caf4-4b0c-87f5-a376cc14d853-resize.png" alt="Flight Unlimited X" /></div><div class="name" title=" Flight Unlimited X"><div>Flight Unlimited X</div></div><div class="star"><div class="star-result"><span style="width: 42.0000%"></span></div></div></a></div> <div class="swiper-slide item"><a href=" https://www.microsoft.com/zh-cn/p/光环：士官长合集/9NTM9HXNLSZX" aria-label="光环：士官长合集"><div class=""></div><div class="img"><img src="https://cdn.microsoftstore.com.cn/media//msGame/apps.15328.14011015795942652.ca67db1b-d21e-47e9-bbb4-5ece2ce3f774.516eb47c-697b-46db-8ba6-f44da2e5592d-resize.png" alt="光环：士官长合集" /></div><div class="name" title=" 光环：士官长合集"><div>光环：士官长合集</div></div><div class="star"><div class="star-result"><span style="width: 64.0000%"></span></div></div></a></div> <div class="swiper-slide item"><a href=" https://www.microsoft.com/zh-cn/p/极限竞速：地平线 4 豪华版/9PHKXB8RDKBC" aria-label="极限竞速：地平线 4 豪华版"><div class=""></div><div class="img"><img src="https://cdn.microsoftstore.com.cn/media//msGame/apps.61966.14229724971193324.2000000000007864596.5efc00e9-f8fa-48a3-89a2-60e31be565f4-resize.png" alt="极限竞速：地平线 4 豪华版" /></div><div class="name" title=" 极限竞速：地平线 4 豪华版"><div>极限竞速：地平线 4 豪华版</div></div><div class="star"><div class="star-result"><span style="width: 60.0000%"></span></div></div></a></div> <div class="swiper-slide item"><a href=" https://www.microsoft.com/zh-cn/p/Survivalcraft 2/9PHC48P58NB2" aria-label="Survivalcraft 2"><div class=""></div><div class="img"><img src="https://cdn.microsoftstore.com.cn/media//msGame/apps.34112.14234084398690953.79eb2f98-17b6-461a-ad70-6518fdc6f264.e57f2a95-6183-45de-8db8-78aa139cc3c0-resize.png" alt="Survivalcraft 2" /></div><div class="name" title=" Survivalcraft 2"><div>Survivalcraft 2</div></div><div class="star"><div class="star-result"><span style="width: 82.0000%"></span></div></div></a></div> <div class="swiper-slide item"><a href=" https://www.microsoft.com/zh-cn/p/极限竞速 7 终极版/9NV34NLCLG81" aria-label="极限竞速 7 终极版"><div class=""></div><div class="img"><img src="https://cdn.microsoftstore.com.cn/media//msGame/apps.29945.14406663268321390.1152921504737975523.a2cb20bb-5307-4c0f-8552-f327fa1a93cd-resize.png" alt="极限竞速 7 终极版" /></div><div class="name" title=" 极限竞速 7 终极版"><div>极限竞速 7 终极版</div></div><div class="star"><div class="star-result"><span style="width: 56.0000%"></span></div></div></a></div></div><div class="swiper-button-prev"></div><div class="swiper-button-next"></div></div></div></div></div><div class="block-promise"><div data-content-type="row" data-appearance="contained" data-element="main"><div data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-background-type="image" data-video-loop="true" data-video-play-only-visible="true" data-video-lazy-load="true" data-video-fallback-src="" data-element="inner" style="justify-content: flex-start; display: flex; flex-direction: column; background-position: left top; background-size: cover; background-repeat: no-repeat; background-attachment: scroll; border-style: none; border-width: 1px; border-radius: 0px; margin: 0px 0px 10px; padding: 10px;"><div data-content-type="html" data-appearance="default" data-element="main" style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-decoded="true"><div class="promise-container product-container ">
+    <h3>商城承诺</h3>
+    <div class="commitment-box">
+        <div class="item">
+            <a href="/support-and-help-tabs">
+                <i class="icon-return-goods"></i>
+                <div class="des">
+                    <span>30天退换货</span>
+                </div>
+            </a>
+        </div>
+        <div class="item">
+            <a href="/support-and-help-tabs">
+                <i style="display: inline-block;height: 30px;width: 30px;text-align: center;line-height: 30px;"  >
+                    <img src="https://cdn.microsoftstore.com.cn/media/homepage/category_icon/msstorepromise-black.png" alt="">
+                </i>
+                <div class="des">
+                    <span>30天价保</span>
+                </div>
+            </a>
+        </div>
+        <div class="item">
+            <a href="/support-and-help-tabs">
+                <i class="icon-lorry"></i>
+                <div class="des">
+                    <span>顺丰包邮</span>
+                </div>
+            </a>
+        </div>
+        <div class="item">
+            <a href="/support-and-help-tabs">
+                <i class="icon-online-services"></i>
+                <div class="des">
+                    <span>24 x 7 在线服务</span>
+                </div>
+            </a>
+        </div>
+        <div class="item mobile-show">
+            <a href="/hardware/surface/refurbishedsurface">
+                <i class="icon-refurbished"></i>
+                <div class="des">
+                    <span>认证翻新</span>
+                    <span>Surface</span>
+                </div>
+            </a>
+        </div>
+        <div class="item mobile-show">
+            <a href="/support-and-help/pay-delivery-faq">
+                <i class="icon-quick-pay"></i>
+                <div class="des">
+                    <span>微信/支付宝 </span>
+                    <span>快捷支付</span>
+                </div>
+            </a>
+        </div>
+        <div class="item mobile-show">
+            <a href="/tradein">
+                <i class="icon-renew"></i>
+                <div class="des">
+                    <span>超万种产品</span>
+                    <span>以旧换新</span>
+                </div>
+            </a>
+
+        </div>
+    </div>
+</div></div></div></div></div><div data-content-type="row" data-appearance="contained" data-element="main"><div data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-background-type="image" data-video-loop="true" data-video-play-only-visible="true" data-video-lazy-load="true" data-video-fallback-src="" data-element="inner" style="justify-content: flex-start; display: flex; flex-direction: column; background-position: left top; background-size: cover; background-repeat: no-repeat; background-attachment: scroll; border-style: none; border-width: 1px; border-radius: 0px; margin: 0px 0px 10px; padding: 10px;"><div data-content-type="html" data-appearance="default" data-element="main" style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-decoded="true"></div></div></div></div></div></main><footer class="page-footer"><div class="footer content"> <div class="block newsletter"><div class="back-top-btn"><button> <i class="icon-up"></i> <span> 回到顶部</span></button></div><div class="title"><strong>获取新品发售资讯，有机会享专属优惠</strong></div><div class="content"><form class="form subscribe" id="newsletter-validate-detail"><div class="field newsletter"><div class="control"><label for="newsletter"><span class="label">Sign Up for Our Newsletter:</span> <input name="email" type="input" id="newsletter" placeholder="&#x8BF7;&#x8F93;&#x5165;&#x60A8;&#x7684;&#x90AE;&#x7BB1;&#x5730;&#x5740;" data-mage-init='{"mage/trim-input":{}}' /><div for="newsletter" generated="true" class="mage-error" style="display: none;" id="newsletter-error">请输入正确的邮箱格式</div></label></div></div><div class="actions"><button class="action subscribe primary" title="&#x8BA2;&#x9605;" type="submit" aria-label="Subscribe"><span>订阅</span></button></div><div class="privacy-policy"><a href="https://privacy.microsoft.com/zh-cn/privacystatement">隐私条款</a></div></form></div></div><div class="subscribe-content"><div>恭喜您订阅成功，</div><div>感谢您关注微软官方商城！</div></div><script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Newsletter/js/subscribe": {}
+        }
+    }</script><div data-content-type="row" data-appearance="contained" data-element="main"><div data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-background-type="image" data-video-loop="true" data-video-play-only-visible="true" data-video-lazy-load="true" data-video-fallback-src="" data-element="inner" style="justify-content: flex-start; display: flex; flex-direction: column; background-position: left top; background-size: cover; background-repeat: no-repeat; background-attachment: scroll; border-style: none; border-width: 1px; border-radius: 0px; margin: 0px 0px 10px; padding: 10px;"><div data-content-type="html" data-appearance="default" data-element="main" style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-decoded="true"><style>
+.product-item-name .product-item-link {
+    height: 50px;
+}
+
+@media only screen and (max-device-width: 767px){
+.cms-top-container {
+    text-align: center;
+    background: #0067b8;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    display: block;
+}
+
+.cms-top-container .global-top-container a{
+    color: #ffffff;
+}
+.catalog-product-buybox .bundle-options-wrapper #product-options-wrapper .tab-effect .choose-bundle-type button.bank-button {
+margin-bottom: 22px!important;
+}
+} 
+
+</style></div><div data-content-type="html" data-appearance="default" data-element="main" style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-decoded="true"><div class="cms-footer">
+    <ul class="cms-footer-container">
+        <li class="container-list">
+            <div class="item-title" role="heading" aria-level="4">
+                <div class="title">
+                    产品类别
+                </div>
+                <i class="icon-arrow-right"></i>
+            </div>
+            <ul class="item-list">
+                <li>
+                    <a href="/hardware/surface" aria-label="Surface">Surface</a>
+
+                </li>
+			    <li>
+                    <a href="/software/microsoft-365" aria-label="Microsoft 365">Microsoft 365</a>
+
+                </li>				
+                <li>
+                    <a href="/hardware/xbox-game" aria-label="Xbox"> Xbox</a>
+
+                </li>
+                <li>
+                    <a href="/software/office" aria-label="Office"> Office</a>
+
+                </li>
+                <li>
+                    <a href="/software/windows" aria-label="Windows">Windows</a>
+
+                </li>
+                <li>
+                    <a href="/software/visual-studio" aria-label="Visual Studio">Visual Studio</a>
+
+                </li>
+                <li>
+                    <a href="/hardware/vr-and-mr" aria-label="混合现实">混合现实</a>
+                </li>
+                <li>
+                    <a href="/software/software" aria-label="其他软件与服务">其他软件与服务</a>
+                </li>
+                <li>
+                    <a href="/hardware/accessories" aria-label="配件">配件</a>
+                </li>
+                <li class="other-location">
+                    <a href="https://www.microsoft.com/zh-cn/sitemap.aspx" aria-label="其他微软站点">其他微软站点</a>
+                </li>
+            </ul>
+        </li>
+        <li class="container-list">
+            <div class="item-title" role="heading" aria-level="4">
+                <div class="title">账户信息</div>
+                <i class="icon-arrow-right"></i>
+            </div>
+            <ul class="item-list">
+                <li>
+                    <a href="/customer/account/" aria-label="账户信息">账户信息</a>
+
+                </li>
+                <li>
+                    <a href="/sales/order/history/" aria-label="订单跟踪">订单跟踪</a>
+
+                </li>				
+                <li>
+                    <a href="/sales/order/history/?group=legacy_order" aria-label="订单历史">订单历史</a>
+
+                </li>
+                <li>
+                    <a href="/customer/account/" aria-label="软件密钥和下载">软件密钥和下载</a>
+
+                </li>
+            </ul>
+        </li>
+        <li class="container-list">
+            <div class="item-title" role="heading" aria-level="4">
+                <div class="title">支持与帮助</div>
+                <i class="icon-arrow-right"></i>
+            </div>
+            <ul class="item-list">
+                <li>
+                    <a href="/support-and-help" aria-label="产品支持信息">产品支持信息</a>
+                </li>
+                <li>
+                    <a href="/support-and-help-tabs" aria-label="退换货政策">退换货政策</a>
+                </li>
+                <li>
+                    <a href="/support-and-help/account-faq" aria-label="常见问题">常见问题</a>
+                </li>
+                <li>
+                    <a href="/support-and-help/software-faq" aria-label="软件产品问题">软件产品问题</a>
+                </li>
+                <li>
+                    <a href="/support-and-help/jiaoyuyouhui-faq" aria-label="教育优惠相关问题">教育优惠相关问题</a>
+                </li>
+                <li>
+                    <a href="/support-and-help/shopping-faq" aria-label="购物流程">购物流程</a>
+                </li>
+                <li>
+                    <a href="/support-and-help/pay-delivery-faq" aria-label="支付与配送">支付与配送</a>
+                </li>
+                <li>
+                    <a href="/support-and-help/after-sales-faq" aria-label="售后服务">售后服务</a>
+                </li>
+            </ul>
+        </li>
+        <li class="container-list">
+            <div class="item-title" role="heading" aria-level="4">
+                <div class="title">
+                    热门资源
+                </div>
+                <i class="icon-arrow-right"></i>
+            </div>
+            <ul class="item-list">
+                <li>
+                    <a href="/surface/surface-laptop-go" aria-label="Surface Laptop Go">Surface Laptop Go</a>
+                </li>
+                <li>
+                    <a href="/surface/surface-pro-x" aria-label="Surface Pro X">Surface Pro X</a>
+                </li>
+                <li>
+                    <a href="/surface/surface-book-3" aria-label="Surface Book 3">Surface Book 3</a>
+                </li>
+                <li>
+                    <a href="/surface/surface-go-2" aria-label="Surface Go 2">Surface Go 2</a>
+                </li>				
+                <li>
+                    <a href="/surface/surface-pro-7" aria-label="Surface Pro 7">Surface Pro 7</a>
+                </li>
+                <li>
+                    <a href="/surface/surface-laptop-3" aria-label="Surface Laptop 3">Surface Laptop 3</a>
+                </li>
+                <li>
+                    <a href="/surface/surface-studio-2" aria-label="Surface Studio 2">Surface Studio 2</a>
+                </li>
+ 
+                <li>
+                    <a href="/hardware/xbox-game" aria-label="Xbox One">Xbox One</a>
+                </li>
+                <li>
+                    <a href="/software/microsoft-365" aria-label="Microsoft 365">Microsoft 365</a>
+                </li>
+                <li>
+                    <a href="/software/office-for-mac" aria-label="Office for Mac">Office for Mac</a>
+                </li>
+
+                <li>
+                    <a href="/promotion?Icid=StoreFooter_promotion" aria-label="优惠信息">优惠信息</a>
+                </li>
+                <li>
+                    <a href="/student" aria-label="教育专区">教育专区</a>
+                </li>
+                <li>
+                    <a href="/tradein" aria-label="以旧换新">以旧换新</a>
+                </li>
+                <li>
+                    <a href="/commercial" aria-label="商务专区">商务专区</a>
+                </li>
+
+            </ul>
+        </li>
+        <li class="container-list">
+            <div class="item-title" role="heading" aria-level="4">
+                <div class="title">
+                    关于我们
+                </div>
+                <i class="icon-arrow-right"></i>
+            </div>
+            <ul class="item-list">
+                <li>
+                    <a href="/shopmap/index" aria-label="查找店铺">查找店铺</a>
+                </li>
+                <li>
+                    <a href="/sitemap" aria-label="网站地图">网站地图</a>
+                </li>
+                <li>
+                    <a href="/store-in-store" aria-label="微软店中店">微软店中店</a>
+                </li>
+                <li>
+                    <a href="/msstorepromise" aria-label="商城承诺">商城承诺</a>
+                </li>
+
+            </ul>
+        </li>
+        <li class="container-list">
+            <div class="item-title" role="heading" aria-level="4">
+                <div class="title">关注我们</div>
+                <i class="icon-arrow-right"></i>
+            </div>
+            <ul class="item-list">
+			 
+                <li class="weibo-box">
+                    官方微博
+                   <a href="https://weibo.com/login.php" aria-label="官方微博"> 
+				   <i class="icon-weibo"></i>
+				   </a>
+                </li>
+                <li>
+                    微软官方商城
+                </li>
+                <li class="qrcode-box">
+                    微信公众号
+                   <img style="
+    height: 110px;
+" src="https://cdn.microsoftstore.com.cn/media/footer/wechat_store_with_tracking_code_new.png" alt="" />
+                </li>
+
+            </ul>
+        </li>
+    </ul>
+    <div class="other-location pc-hide">
+        <a href="https://www.microsoft.com/zh-cn/sitemap.aspx">其他微软站点</a>
+    </div>
+    <div class="uhf-footer">
+        <i class="icon-earth"></i>
+        <a href="https://www.microsoft.com/en-us/store/locale" class="language-link">中国 - 简体中文</a>
+        <div class="copyright">
+            <a href="/terms-and-conditions" aria-label="使用与销售">使用与销售</a>
+            <a href="https://privacy.microsoft.com/zh-cn/privacystatement" aria-label="隐私权声明">隐私权声明</a>
+            <a href="https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/en-us.aspx" aria-label="商标">商标</a>
+            <span><a href="https://beian.miit.gov.cn/">沪 ICP备12038052号-4</a></span>
+            <a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802023178" aria-label="公安备案信息"><img src="https://cdn.microsoftstore.com.cn/media/footer/beianbgs.png" alt="" />京公网安备 11010802023178号</a>
+            <a href="https://cdn.microsoftstore.com.cn/media/footer/Certification.jpg" aria-label="公司证件">公司证件</a>
+            <span>© 2020 Microsoft</span>
+        </div>
+    </div>
+</div></div><div data-content-type="html" data-appearance="default" data-element="main" style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-decoded="true"><script>
+    var aTargent = document.getElementsByTagName('a');
+
+    var aTargentUrl;
+    for (var i = 0; i < aTargent.length; i++) {
+        let aHrefOld = aTargent[i].getAttribute("href");
+        if (aHrefOld != null && aHrefOld.indexOf("?Icid") != -1) {
+            let aHrefNew = aHrefOld.split("?")[0];
+            aTargent[i].setAttribute("track-href", aHrefOld);
+            aTargent[i].setAttribute("href", aHrefNew);
+        }
+    }
+    var rediral = window.location.pathname;
+    if (rediral === "/hardware" || rediral === "/software") {
+        window.location.href = "/"
+    }
+</script>
+<script type="text/javascript">
+    require([
+        'jquery'
+    ], function($) {
+        var hardware = $("#autoNav .nav-1>a");
+        var software = $("#autoNav .nav-2>a");
+        hardware.attr("rel", "nofollow")
+        software.attr("rel", "nofollow")
+
+        $(document).on("click","a[track-href]",function(e){
+            e.preventDefault();
+            location.href = $(this).attr("track-href");
+        })
+
+        $(document).on("click", ".coupon-page-content .coupon-list .tip-box .tip", function (e) {
+            if($(window).width()<768){
+                $(this).siblings().toggle();
+                $(this).parents(".coupon-list").siblings(".coupon-list").find(".tip-content").hide();
+            }
+        })
+    })
+  
+</script></div><div data-content-type="html" data-appearance="default" data-element="main" style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-decoded="true"><style>
+    .cms-support-and-help-software-faq .gift_popup.promotion_popup,
+    .cms-support-and-help-xbox-faq .gift_popup.promotion_popup,
+    .cms-support-and-help-microsoft-hololens-faq .gift_popup.promotion_popup,
+    .cms-support-and-help-jiaoyuyouhui-faq .gift_popup.promotion_popup,
+    .cms-support-and-help-pay-delivery-faq .gift_popup.promotion_popup,
+    .cms-support-and-help-shopping-faq .gift_popup.promotion_popup,
+    .cms-support-and-help-after-sales-faq .gift_popup.promotion_popup,
+    .cms-support-and-help-coupon-faq .gift_popup.promotion_popup,
+    .cms-support-and-help-privatestoremsa .gift_popup.promotion_popup,
+    .cms-support-and-help-full-service-plan-faq .gift_popup.promotion_popup,
+    .cms-support-and-help-account-faq .gift_popup.promotion_popup,
+    .cms-support-and-help-hardware-faq .gift_popup.promotion_popup {
+        display: none;
+    }
+
+    .cms-support-and-help-software-faq .modals-overlay.home-modals-overlay,
+    .cms-support-and-help-xbox-faq .modals-overlay.home-modals-overlay,
+    .cms-support-and-help-microsoft-hololens-faq .modals-overlay.home-modals-overlay,
+    .cms-support-and-help-jiaoyuyouhui-faq .modals-overlay.home-modals-overlay,
+    .cms-support-and-help-pay-delivery-faq .modals-overlay.home-modals-overlay,
+    .cms-support-and-help-shopping-faq .modals-overlay.home-modals-overlay,
+    .cms-support-and-help-after-sales-faq .modals-overlay.home-modals-overlay,
+    .cms-support-and-help-coupon-faq .modals-overlay.home-modals-overlay,
+    .cms-support-and-help-privatestoremsa .modals-overlay.home-modals-overlay,
+    .cms-support-and-help-full-service-plan-faq .modals-overlay.home-modals-overlay,
+    .cms-support-and-help-account-faq .modals-overlay.home-modals-overlay,
+    .cms-support-and-help-hardware-faq .modals-overlay.home-modals-overlay {
+        background-color: rgba(0, 0, 0, .8);
+    }
+
+    .cms-support-and-help-software-faq .modals-overlay.home-modals-overlay[style="z-index: 901;"],
+    .cms-support-and-help-xbox-faq .modals-overlay.home-modals-overlay[style="z-index: 901;"],
+    .cms-support-and-help-microsoft-hololens-faq .modals-overlay.home-modals-overlay[style="z-index: 901;"],
+    .cms-support-and-help-jiaoyuyouhui-faq .modals-overlay.home-modals-overlay[style="z-index: 901;"],
+    .cms-support-and-help-pay-delivery-faq .modals-overlay.home-modals-overlay[style="z-index: 901;"],
+    .cms-support-and-help-shopping-faq .modals-overlay.home-modals-overlay[style="z-index: 901;"],
+    .cms-support-and-help-after-sales-faq .modals-overlay.home-modals-overlay[style="z-index: 901;"],
+    .cms-support-and-help-coupon-faq .modals-overlay.home-modals-overlay[style="z-index: 901;"],
+    .cms-support-and-help-privatestoremsa .modals-overlay.home-modals-overlay[style="z-index: 901;"],
+    .cms-support-and-help-full-service-plan-faq .modals-overlay.home-modals-overlay[style="z-index: 901;"],
+    .cms-support-and-help-account-faq .modals-overlay.home-modals-overlay[style="z-index: 901;"],
+    .cms-support-and-help-hardware-faq .modals-overlay.home-modals-overlay[style="z-index: 901;"] {
+        display: none;
+    }
+
+    @media only screen and (min-width: 768px) {
+        .account-coupon .coupon-container .coupon-page-content {
+            min-height: 800px;
+            overflow: unset;
+        }
+    }
+</style></div><div data-content-type="html" data-appearance="default" data-element="main" style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-decoded="true"><style>
+    .header-container .header-content .navigation-item .nav-sections .nav-sections-items #mainMenu #autoNav>.level0:nth-child(3) {
+        position: relative;
+    }
+
+    .header-container .header-content .navigation-item .nav-sections .nav-sections-items #mainMenu #autoNav>.level0:nth-child(3) a.level-top::before {
+        content: "";
+        background: url("https://cdn.microsoftstore.com.cn/media/catalog/category/new.png") no-repeat;
+        background-size: 100%;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: -26px;
+        top: 5px;
+    }
+
+    @media only screen and (max-device-width: 767px) {
+        .header-container .header-content .navigation-item .nav-sections .nav-sections-items #mainMenu #autoNav>.level0:nth-child(3) a::before {
+            width: 36px;
+            height: 30px;
+            left: 47px;
+            top: 0px;
+        }
+    }
+</style>
+</div></div></div><!-- /** * Copyright © Isobar Commerce, Inc. All rights reserved. */ -->  <div class="global-service"><button class="service-btn" aria-label="联系客服"><img src="https://cdn.microsoftstore.com.cn/static/version1616422545/frontend/Microsoft/rwd/zh_Hans_CN/images/servers.png" alt="" /></button> <div data-content-type="row" data-appearance="contained" data-element="main"><div data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-background-type="image" data-video-loop="true" data-video-play-only-visible="true" data-video-lazy-load="true" data-video-fallback-src="" data-element="inner" style="justify-content: flex-start; display: flex; flex-direction: column; background-position: left top; background-size: cover; background-repeat: no-repeat; background-attachment: scroll; border-style: none; border-width: 1px; border-radius: 0px; margin: 0px 0px 10px; padding: 10px;"><div data-content-type="html" data-appearance="default" data-element="main" style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-decoded="true"><div class="chatDialog">
+        <div class="content">
+            <div class="head">
+                <span class="avatar"></span>
+                联系客服
+            </div>
+            <div class="content">
+                <button class="closeBtn">
+                        <i class="icon-close"></i>
+                </button>
+                <div class="liveChatContent">
+                    <div class="title">
+                        <span>24x7在线聊天</span>
+                    </div>
+                    <div>
+                        <button class="startChat" role="button">开始在线聊天</button>
+                    </div>
+                </div>
+                <div class="hotLineContent">
+                    <div class="title">
+                        <span>电话联系</span>
+                    </div>
+                    <ul>
+                        <li>微软官方商城服务热线：<a href="tel:4008822059">4008822059</a></li>
+                        <li>企业用户购买服务专线：<a href="tel:4008056783">4008056783</a></li>
+                        <li>微软中国技术服务热线：<a href="tel:4008203800">4008203800</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<style>
+.global-service .chatDialog .content .content .liveChatContent {
+    display: none;
+}
+</style></div></div></div></div></div><!-- /** * Copyright © Isobar Commerce, Inc. All rights reserved. */ --><div id="cookie-banner"></div><script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Theme/js/wcp-consent-cookie": {}
+        }
+    }</script></footer> <script type="text/x-magento-init">
+        {
+            "*": {
+                "Magento_Ui/js/core/app": {
+                    "components": {
+                        "storage-manager": {
+                            "component": "Magento_Catalog/js/storage-manager",
+                            "appendTo": "",
+                            "storagesConfiguration" : {"recently_viewed_product":{"requestConfig":{"syncUrl":"https:\/\/www.microsoftstore.com.cn\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"recently_compared_product":{"requestConfig":{"syncUrl":"https:\/\/www.microsoftstore.com.cn\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"product_data_storage":{"updateRequestConfig":{"url":"https:\/\/www.microsoftstore.com.cn\/rest\/default\/V1\/products-render-info"},"requestConfig":{"syncUrl":"https:\/\/www.microsoftstore.com.cn\/catalog\/product\/frontend_action_synchronize\/"},"allowToSendRequest":null}}                        }
+                    }
+                }
+            }
+        }</script> </div><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.eu01.nr-data.net","licenseKey":"NRJS-fea48e6b148874ddfb4","applicationID":"66192209","transactionName":"MhBSZQoZDxIFBxVRDAtacVIMEQ4PSwcMS0wMG1RUAFcIDwABGQ==","queueTime":0,"applicationTime":1713,"atts":"HldRE0IDHBw=","errorBeacon":"bam.eu01.nr-data.net","agent":""}</script></body></html>

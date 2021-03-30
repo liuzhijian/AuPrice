@@ -9,7 +9,7 @@ import datetime
 import ssl
 import json
 import datetime
-#import excel
+import excel
 from HandleCsv import HandleCsv
 from Send_Wechart import Send_Wechart
 from Send_Email import Send_Email
@@ -125,8 +125,8 @@ context.verify_mode = ssl.CERT_NONE
 
 #黄金网站
 #url = "https://www.sge.com.cn/graph/quotations"#"https://www.sge.com.cn/graph/quotations"#http://www.sge.com.cn/hqsj#https://www.sge.com.cn/graph/quotations#"https://mybank.icbc.com.cn/icbc/newperbank/perbank3/realGold/realgold_query_pic_big_nologin.jsp?mode=2&preprodcode=080020000219&prechartType=realtime&Area_code=0200"#https://mybank.icbc.com.cn/icbc/newperbank/perbank3/frame/frame_index.jsp?serviceId=PBL201311#"#http://www.sge.com.cn/
-#url_price = "https://www.sge.com.cn/graph/quotations"
-url = "https://www.microsoftstore.com.cn/certified-refurbished-surface-go-configurate"
+url_price = "https://www.sge.com.cn/graph/quotations"
+#url = "https://www.microsoftstore.com.cn/certified-refurbished-surface-go-configurate"
 def getYesterday(): 
     today=datetime.date.today() 
     print("今天的时间:",today)
